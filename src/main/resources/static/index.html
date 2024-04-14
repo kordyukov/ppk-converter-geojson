@@ -1,11 +1,19 @@
 <html>
-<body>
+<body bgcolor="lightblue">
 <form method="POST" enctype="multipart/form-data"
       action="/upload" >
+    <b>
     Convert xml to geojson
-    Upload xml file for pkk.rosreestr.ru:
-    <input name="file" type="file"><br/> Custom Name, example "test": <input
-        type="text" name="name"><br /> <br />
+    Upload xml file for pkk.rosreestr.ru, creator: denis.kordyukov@fors.ru:
+    <b/>
+        <br/>
+        <br/>
+    <b>
+    <input name="file" type="file"><br/> Custom Name, example "test":
+    </b>
+    <b>
+    <input type="text" name="name"><br /> <br />
+     <b/>
     <input onclick="redidect()" type="submit" value="Upload geojson"> Press here to upload the file!
 </form>
 <script>
