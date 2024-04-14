@@ -4,9 +4,18 @@
       action="/upload" >
     Convert xml to geojson
     Upload xml file for pkk.rosreestr.ru:
-    <input type="file" name="file"><br /> Name: <input
+    <input name="file" type="file"><br/> Custom Name, example "test": <input
         type="text" name="name"><br /> <br />
-    <input type="submit" value="Upload" > Press here to upload the file!
+    <input onclick="redidect()" type="submit" value="Upload geojson"> Press here to upload the file!
 </form>
+<script>
+    function redidect() {
+        // Your delay in milliseconds
+        var delay = 5000;
+        setTimeout(function () {
+            window.location = 'https://pkk.rosreestr.ru/#/draw/11.21836548226393,5.93634102429724/19/@5w3tqw5cd';
+        }, delay);
+    }
+</script>
 </body>
 </html>

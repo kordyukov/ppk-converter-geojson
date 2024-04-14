@@ -3,13 +3,16 @@ package ru.fors.itconsalting.ppkconvertergeojson.config;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.fasterxml.jackson.dataformat.xml.XmlMapper;
 import jakarta.servlet.MultipartConfigElement;
+import lombok.RequiredArgsConstructor;
 import org.springframework.boot.web.servlet.MultipartConfigFactory;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
+import org.springframework.http.HttpHeaders;
 
 import static com.fasterxml.jackson.databind.SerializationFeature.FAIL_ON_EMPTY_BEANS;
 
 @Configuration
+@RequiredArgsConstructor
 public class PpcConverterConfig {
     @Bean
     public XmlMapper xmlMapper() {
@@ -26,8 +29,11 @@ public class PpcConverterConfig {
     @Bean
     MultipartConfigElement multipartConfigElement() {
         MultipartConfigFactory factory = new MultipartConfigFactory();
-//        factory.setMaxFileSize("128KB");
-//        factory.setMaxRequestSize("128KB");
         return factory.createMultipartConfig();
+    }
+
+    @Bean
+    public HttpHeaders headers() {
+        return new HttpHeaders();
     }
 }
