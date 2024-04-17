@@ -1,1090 +1,384 @@
-14.04.2024 00:02:59.900 [main] INFO  r.f.i.p.PpkConverterGeojsonApplication - Starting PpkConverterGeojsonApplication using Java 17.0.9 with PID 19148 (C:\Users\Denis\IdeaProjects\ppk-converter-geojson\target\classes started by Denis in C:\Users\Denis\IdeaProjects\ppk-converter-geojson)
-14.04.2024 00:02:59.904 [main] INFO  r.f.i.p.PpkConverterGeojsonApplication - No active profile set, falling back to 1 default profile: "default"
-14.04.2024 00:03:00.489 [main] INFO  o.s.b.w.e.t.TomcatWebServer - Tomcat initialized with port 8080 (http)
-14.04.2024 00:03:00.495 [main] INFO  o.a.c.h.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
-14.04.2024 00:03:00.497 [main] INFO  o.a.c.c.StandardService - Starting service [Tomcat]
-14.04.2024 00:03:00.499 [main] INFO  o.a.c.c.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.19]
-14.04.2024 00:03:00.536 [main] INFO  o.a.c.c.C.[.[.[/] - Initializing Spring embedded WebApplicationContext
-14.04.2024 00:03:00.537 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 601 ms
-14.04.2024 00:03:00.662 [main] INFO  o.s.b.a.w.s.WelcomePageHandlerMapping - Adding welcome page: class path resource [static/index.html]
-14.04.2024 00:03:00.851 [main] INFO  o.a.c.h.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
-14.04.2024 00:03:00.864 [main] INFO  o.s.b.w.e.t.TomcatWebServer - Tomcat started on port 8080 (http) with context path ''
-14.04.2024 00:03:00.871 [main] INFO  r.f.i.p.PpkConverterGeojsonApplication - Started PpkConverterGeojsonApplication in 1.22 seconds (process running for 1.73)
-14.04.2024 00:03:06.560 [http-nio-8080-exec-2] INFO  o.a.c.c.C.[.[.[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
-14.04.2024 00:03:06.560 [http-nio-8080-exec-2] INFO  o.s.w.s.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
-14.04.2024 00:03:06.561 [http-nio-8080-exec-2] INFO  o.s.w.s.DispatcherServlet - Completed initialization in 1 ms
-14.04.2024 00:03:07.604 [http-nio-8080-exec-1] WARN  r.f.i.p.c.CommonExceptionHandler - No static resource favicon.ico.
-14.04.2024 00:03:11.354 [http-nio-8080-exec-6] INFO  r.f.i.p.s.PpkConverterServiceImpl - start converting convertToGeojson
-14.04.2024 00:03:11.481 [http-nio-8080-exec-6] INFO  r.f.i.p.s.PpkConverterServiceImpl - end converting convertToGeojson
-14.04.2024 00:06:04.054 [main] INFO  r.f.i.p.PpkConverterGeojsonApplication - Starting PpkConverterGeojsonApplication using Java 17.0.9 with PID 21864 (C:\Users\Denis\IdeaProjects\ppk-converter-geojson\target\classes started by Denis in C:\Users\Denis\IdeaProjects\ppk-converter-geojson)
-14.04.2024 00:06:04.055 [main] INFO  r.f.i.p.PpkConverterGeojsonApplication - No active profile set, falling back to 1 default profile: "default"
-14.04.2024 00:06:04.610 [main] INFO  o.s.b.w.e.t.TomcatWebServer - Tomcat initialized with port 8080 (http)
-14.04.2024 00:06:04.615 [main] INFO  o.a.c.h.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
-14.04.2024 00:06:04.616 [main] INFO  o.a.c.c.StandardService - Starting service [Tomcat]
-14.04.2024 00:06:04.616 [main] INFO  o.a.c.c.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.19]
-14.04.2024 00:06:04.644 [main] INFO  o.a.c.c.C.[.[.[/] - Initializing Spring embedded WebApplicationContext
-14.04.2024 00:06:04.644 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 562 ms
-14.04.2024 00:06:04.767 [main] INFO  o.s.b.a.w.s.WelcomePageHandlerMapping - Adding welcome page: class path resource [static/index.html]
-14.04.2024 00:06:04.939 [main] INFO  o.a.c.h.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
-14.04.2024 00:06:04.949 [main] INFO  o.s.b.w.e.t.TomcatWebServer - Tomcat started on port 8080 (http) with context path ''
-14.04.2024 00:06:04.954 [main] INFO  r.f.i.p.PpkConverterGeojsonApplication - Started PpkConverterGeojsonApplication in 1.147 seconds (process running for 1.625)
-14.04.2024 00:06:09.076 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[.[.[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
-14.04.2024 00:06:09.077 [http-nio-8080-exec-1] INFO  o.s.w.s.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
-14.04.2024 00:06:09.078 [http-nio-8080-exec-1] INFO  o.s.w.s.DispatcherServlet - Completed initialization in 1 ms
-14.04.2024 00:06:10.097 [http-nio-8080-exec-5] WARN  r.f.i.p.c.CommonExceptionHandler - No static resource favicon.ico.
-14.04.2024 00:06:13.260 [http-nio-8080-exec-6] INFO  r.f.i.p.s.PpkConverterServiceImpl - start converting convertToGeojson
-14.04.2024 00:06:13.382 [http-nio-8080-exec-6] INFO  r.f.i.p.s.PpkConverterServiceImpl - end converting convertToGeojson
-14.04.2024 00:07:07.245 [main] INFO  r.f.i.p.PpkConverterGeojsonApplication - Starting PpkConverterGeojsonApplication using Java 17.0.9 with PID 22320 (C:\Users\Denis\IdeaProjects\ppk-converter-geojson\target\classes started by Denis in C:\Users\Denis\IdeaProjects\ppk-converter-geojson)
-14.04.2024 00:07:07.247 [main] INFO  r.f.i.p.PpkConverterGeojsonApplication - No active profile set, falling back to 1 default profile: "default"
-14.04.2024 00:07:07.774 [main] INFO  o.s.b.w.e.t.TomcatWebServer - Tomcat initialized with port 8080 (http)
-14.04.2024 00:07:07.781 [main] INFO  o.a.c.h.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
-14.04.2024 00:07:07.782 [main] INFO  o.a.c.c.StandardService - Starting service [Tomcat]
-14.04.2024 00:07:07.782 [main] INFO  o.a.c.c.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.19]
-14.04.2024 00:07:07.813 [main] INFO  o.a.c.c.C.[.[.[/] - Initializing Spring embedded WebApplicationContext
-14.04.2024 00:07:07.813 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 541 ms
-14.04.2024 00:07:07.939 [main] INFO  o.s.b.a.w.s.WelcomePageHandlerMapping - Adding welcome page: class path resource [static/index.html]
-14.04.2024 00:07:08.119 [main] INFO  o.a.c.h.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
-14.04.2024 00:07:08.129 [main] INFO  o.s.b.w.e.t.TomcatWebServer - Tomcat started on port 8080 (http) with context path ''
-14.04.2024 00:07:08.135 [main] INFO  r.f.i.p.PpkConverterGeojsonApplication - Started PpkConverterGeojsonApplication in 1.12 seconds (process running for 1.59)
-14.04.2024 00:07:13.140 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[.[.[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
-14.04.2024 00:07:13.140 [http-nio-8080-exec-1] INFO  o.s.w.s.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
-14.04.2024 00:07:13.141 [http-nio-8080-exec-1] INFO  o.s.w.s.DispatcherServlet - Completed initialization in 1 ms
-14.04.2024 00:07:13.187 [http-nio-8080-exec-3] WARN  r.f.i.p.c.CommonExceptionHandler - No static resource favicon.ico.
-14.04.2024 00:07:15.989 [http-nio-8080-exec-2] INFO  r.f.i.p.s.PpkConverterServiceImpl - start converting convertToGeojson
-14.04.2024 00:07:16.120 [http-nio-8080-exec-2] INFO  r.f.i.p.s.PpkConverterServiceImpl - end converting convertToGeojson
-14.04.2024 00:07:51.265 [main] INFO  r.f.i.p.PpkConverterGeojsonApplication - Starting PpkConverterGeojsonApplication using Java 17.0.9 with PID 20784 (C:\Users\Denis\IdeaProjects\ppk-converter-geojson\target\classes started by Denis in C:\Users\Denis\IdeaProjects\ppk-converter-geojson)
-14.04.2024 00:07:51.266 [main] INFO  r.f.i.p.PpkConverterGeojsonApplication - No active profile set, falling back to 1 default profile: "default"
-14.04.2024 00:07:51.822 [main] INFO  o.s.b.w.e.t.TomcatWebServer - Tomcat initialized with port 8080 (http)
-14.04.2024 00:07:51.829 [main] INFO  o.a.c.h.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
-14.04.2024 00:07:51.831 [main] INFO  o.a.c.c.StandardService - Starting service [Tomcat]
-14.04.2024 00:07:51.832 [main] INFO  o.a.c.c.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.19]
-14.04.2024 00:07:51.869 [main] INFO  o.a.c.c.C.[.[.[/] - Initializing Spring embedded WebApplicationContext
-14.04.2024 00:07:51.870 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 578 ms
-14.04.2024 00:07:52.019 [main] INFO  o.s.b.a.w.s.WelcomePageHandlerMapping - Adding welcome page: class path resource [static/index.html]
-14.04.2024 00:07:52.196 [main] INFO  o.a.c.h.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
-14.04.2024 00:07:52.207 [main] INFO  o.s.b.w.e.t.TomcatWebServer - Tomcat started on port 8080 (http) with context path ''
-14.04.2024 00:07:52.214 [main] INFO  r.f.i.p.PpkConverterGeojsonApplication - Started PpkConverterGeojsonApplication in 1.186 seconds (process running for 1.639)
-14.04.2024 00:07:57.486 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[.[.[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
-14.04.2024 00:07:57.487 [http-nio-8080-exec-1] INFO  o.s.w.s.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
-14.04.2024 00:07:57.487 [http-nio-8080-exec-1] INFO  o.s.w.s.DispatcherServlet - Completed initialization in 0 ms
-14.04.2024 00:07:57.535 [http-nio-8080-exec-2] WARN  r.f.i.p.c.CommonExceptionHandler - No static resource favicon.ico.
-14.04.2024 00:08:00.350 [http-nio-8080-exec-3] INFO  r.f.i.p.s.PpkConverterServiceImpl - start converting convertToGeojson
-14.04.2024 00:08:00.483 [http-nio-8080-exec-3] INFO  r.f.i.p.s.PpkConverterServiceImpl - end converting convertToGeojson
-14.04.2024 00:09:56.473 [main] INFO  r.f.i.p.PpkConverterGeojsonApplication - Starting PpkConverterGeojsonApplication using Java 17.0.9 with PID 21968 (C:\Users\Denis\IdeaProjects\ppk-converter-geojson\target\classes started by Denis in C:\Users\Denis\IdeaProjects\ppk-converter-geojson)
-14.04.2024 00:09:56.474 [main] INFO  r.f.i.p.PpkConverterGeojsonApplication - No active profile set, falling back to 1 default profile: "default"
-14.04.2024 00:09:57.060 [main] INFO  o.s.b.w.e.t.TomcatWebServer - Tomcat initialized with port 8080 (http)
-14.04.2024 00:09:57.067 [main] INFO  o.a.c.h.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
-14.04.2024 00:09:57.068 [main] INFO  o.a.c.c.StandardService - Starting service [Tomcat]
-14.04.2024 00:09:57.068 [main] INFO  o.a.c.c.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.19]
-14.04.2024 00:09:57.102 [main] INFO  o.a.c.c.C.[.[.[/] - Initializing Spring embedded WebApplicationContext
-14.04.2024 00:09:57.102 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 602 ms
-14.04.2024 00:09:57.229 [main] INFO  o.s.b.a.w.s.WelcomePageHandlerMapping - Adding welcome page: class path resource [static/index.html]
-14.04.2024 00:09:57.415 [main] INFO  o.a.c.h.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
-14.04.2024 00:09:57.425 [main] INFO  o.s.b.w.e.t.TomcatWebServer - Tomcat started on port 8080 (http) with context path ''
-14.04.2024 00:09:57.431 [main] INFO  r.f.i.p.PpkConverterGeojsonApplication - Started PpkConverterGeojsonApplication in 1.185 seconds (process running for 1.713)
-14.04.2024 00:10:01.874 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[.[.[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
-14.04.2024 00:10:01.874 [http-nio-8080-exec-1] INFO  o.s.w.s.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
-14.04.2024 00:10:01.875 [http-nio-8080-exec-1] INFO  o.s.w.s.DispatcherServlet - Completed initialization in 1 ms
-14.04.2024 00:10:01.926 [http-nio-8080-exec-2] WARN  r.f.i.p.c.CommonExceptionHandler - No static resource favicon.ico.
-14.04.2024 00:10:04.834 [http-nio-8080-exec-6] INFO  r.f.i.p.s.PpkConverterServiceImpl - start converting convertToGeojson
-14.04.2024 00:10:04.982 [http-nio-8080-exec-6] INFO  r.f.i.p.s.PpkConverterServiceImpl - end converting convertToGeojson
-14.04.2024 00:10:08.663 [http-nio-8080-exec-5] INFO  r.f.i.p.s.PpkConverterServiceImpl - start converting convertToGeojson
-14.04.2024 00:10:08.672 [http-nio-8080-exec-5] INFO  r.f.i.p.s.PpkConverterServiceImpl - end converting convertToGeojson
-14.04.2024 00:12:03.975 [main] INFO  r.f.i.p.PpkConverterGeojsonApplication - Starting PpkConverterGeojsonApplication using Java 17.0.9 with PID 13292 (C:\Users\Denis\IdeaProjects\ppk-converter-geojson\target\classes started by Denis in C:\Users\Denis\IdeaProjects\ppk-converter-geojson)
-14.04.2024 00:12:03.977 [main] INFO  r.f.i.p.PpkConverterGeojsonApplication - No active profile set, falling back to 1 default profile: "default"
-14.04.2024 00:12:04.499 [main] INFO  o.s.b.w.e.t.TomcatWebServer - Tomcat initialized with port 8080 (http)
-14.04.2024 00:12:04.504 [main] INFO  o.a.c.h.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
-14.04.2024 00:12:04.505 [main] INFO  o.a.c.c.StandardService - Starting service [Tomcat]
-14.04.2024 00:12:04.506 [main] INFO  o.a.c.c.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.19]
-14.04.2024 00:12:04.537 [main] INFO  o.a.c.c.C.[.[.[/] - Initializing Spring embedded WebApplicationContext
-14.04.2024 00:12:04.538 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 534 ms
-14.04.2024 00:12:04.667 [main] INFO  o.s.b.a.w.s.WelcomePageHandlerMapping - Adding welcome page: class path resource [static/index.html]
-14.04.2024 00:12:04.846 [main] INFO  o.a.c.h.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
-14.04.2024 00:12:04.856 [main] INFO  o.s.b.w.e.t.TomcatWebServer - Tomcat started on port 8080 (http) with context path ''
-14.04.2024 00:12:04.862 [main] INFO  r.f.i.p.PpkConverterGeojsonApplication - Started PpkConverterGeojsonApplication in 1.11 seconds (process running for 1.533)
-14.04.2024 00:12:11.063 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[.[.[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
-14.04.2024 00:12:11.063 [http-nio-8080-exec-1] INFO  o.s.w.s.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
-14.04.2024 00:12:11.064 [http-nio-8080-exec-1] INFO  o.s.w.s.DispatcherServlet - Completed initialization in 1 ms
-14.04.2024 00:12:11.118 [http-nio-8080-exec-3] WARN  r.f.i.p.c.CommonExceptionHandler - No static resource favicon.ico.
-14.04.2024 00:12:14.650 [http-nio-8080-exec-4] INFO  r.f.i.p.s.PpkConverterServiceImpl - start converting convertToGeojson
-14.04.2024 00:12:14.764 [http-nio-8080-exec-4] INFO  r.f.i.p.s.PpkConverterServiceImpl - end converting convertToGeojson
-14.04.2024 00:14:26.225 [main] INFO  r.f.i.p.PpkConverterGeojsonApplication - Starting PpkConverterGeojsonApplication using Java 17.0.9 with PID 15832 (C:\Users\Denis\IdeaProjects\ppk-converter-geojson\target\classes started by Denis in C:\Users\Denis\IdeaProjects\ppk-converter-geojson)
-14.04.2024 00:14:26.226 [main] INFO  r.f.i.p.PpkConverterGeojsonApplication - No active profile set, falling back to 1 default profile: "default"
-14.04.2024 00:14:26.839 [main] INFO  o.s.b.w.e.t.TomcatWebServer - Tomcat initialized with port 8080 (http)
-14.04.2024 00:14:26.846 [main] INFO  o.a.c.h.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
-14.04.2024 00:14:26.847 [main] INFO  o.a.c.c.StandardService - Starting service [Tomcat]
-14.04.2024 00:14:26.847 [main] INFO  o.a.c.c.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.19]
-14.04.2024 00:14:26.887 [main] INFO  o.a.c.c.C.[.[.[/] - Initializing Spring embedded WebApplicationContext
-14.04.2024 00:14:26.888 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 635 ms
-14.04.2024 00:14:27.032 [main] INFO  o.s.b.a.w.s.WelcomePageHandlerMapping - Adding welcome page: class path resource [static/index.html]
-14.04.2024 00:14:27.271 [main] INFO  o.a.c.h.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
-14.04.2024 00:14:27.285 [main] INFO  o.s.b.w.e.t.TomcatWebServer - Tomcat started on port 8080 (http) with context path ''
-14.04.2024 00:14:27.291 [main] INFO  r.f.i.p.PpkConverterGeojsonApplication - Started PpkConverterGeojsonApplication in 1.306 seconds (process running for 1.713)
-14.04.2024 00:14:34.270 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[.[.[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
-14.04.2024 00:14:34.270 [http-nio-8080-exec-1] INFO  o.s.w.s.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
-14.04.2024 00:14:34.271 [http-nio-8080-exec-1] INFO  o.s.w.s.DispatcherServlet - Completed initialization in 1 ms
-14.04.2024 00:14:34.298 [http-nio-8080-exec-1] WARN  r.f.i.p.c.CommonExceptionHandler - No static resource favicon.ico.
-14.04.2024 00:14:37.375 [http-nio-8080-exec-2] INFO  r.f.i.p.s.PpkConverterServiceImpl - start converting convertToGeojson
-14.04.2024 00:14:37.510 [http-nio-8080-exec-2] INFO  r.f.i.p.s.PpkConverterServiceImpl - end converting convertToGeojson
-14.04.2024 00:15:10.138 [main] INFO  r.f.i.p.PpkConverterGeojsonApplication - Starting PpkConverterGeojsonApplication using Java 17.0.9 with PID 9832 (C:\Users\Denis\IdeaProjects\ppk-converter-geojson\target\classes started by Denis in C:\Users\Denis\IdeaProjects\ppk-converter-geojson)
-14.04.2024 00:15:10.140 [main] INFO  r.f.i.p.PpkConverterGeojsonApplication - No active profile set, falling back to 1 default profile: "default"
-14.04.2024 00:15:10.702 [main] INFO  o.s.b.w.e.t.TomcatWebServer - Tomcat initialized with port 8080 (http)
-14.04.2024 00:15:10.708 [main] INFO  o.a.c.h.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
-14.04.2024 00:15:10.710 [main] INFO  o.a.c.c.StandardService - Starting service [Tomcat]
-14.04.2024 00:15:10.710 [main] INFO  o.a.c.c.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.19]
-14.04.2024 00:15:10.747 [main] INFO  o.a.c.c.C.[.[.[/] - Initializing Spring embedded WebApplicationContext
-14.04.2024 00:15:10.747 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 581 ms
-14.04.2024 00:15:10.882 [main] INFO  o.s.b.a.w.s.WelcomePageHandlerMapping - Adding welcome page: class path resource [static/index.html]
-14.04.2024 00:15:11.064 [main] INFO  o.a.c.h.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
-14.04.2024 00:15:11.073 [main] INFO  o.s.b.w.e.t.TomcatWebServer - Tomcat started on port 8080 (http) with context path ''
-14.04.2024 00:15:11.080 [main] INFO  r.f.i.p.PpkConverterGeojsonApplication - Started PpkConverterGeojsonApplication in 1.173 seconds (process running for 1.638)
-14.04.2024 00:15:14.201 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[.[.[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
-14.04.2024 00:15:14.201 [http-nio-8080-exec-1] INFO  o.s.w.s.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
-14.04.2024 00:15:14.202 [http-nio-8080-exec-1] INFO  o.s.w.s.DispatcherServlet - Completed initialization in 1 ms
-14.04.2024 00:15:14.263 [http-nio-8080-exec-2] WARN  r.f.i.p.c.CommonExceptionHandler - No static resource favicon.ico.
-14.04.2024 00:15:17.161 [http-nio-8080-exec-3] INFO  r.f.i.p.s.PpkConverterServiceImpl - start converting convertToGeojson
-14.04.2024 00:15:17.216 [http-nio-8080-exec-3] INFO  r.f.i.p.s.PpkConverterServiceImpl - end converting convertToGeojson
-14.04.2024 00:16:03.062 [main] INFO  r.f.i.p.PpkConverterGeojsonApplication - Starting PpkConverterGeojsonApplication using Java 17.0.9 with PID 16908 (C:\Users\Denis\IdeaProjects\ppk-converter-geojson\target\classes started by Denis in C:\Users\Denis\IdeaProjects\ppk-converter-geojson)
-14.04.2024 00:16:03.064 [main] INFO  r.f.i.p.PpkConverterGeojsonApplication - No active profile set, falling back to 1 default profile: "default"
-14.04.2024 00:16:03.687 [main] INFO  o.s.b.w.e.t.TomcatWebServer - Tomcat initialized with port 8080 (http)
-14.04.2024 00:16:03.694 [main] INFO  o.a.c.h.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
-14.04.2024 00:16:03.695 [main] INFO  o.a.c.c.StandardService - Starting service [Tomcat]
-14.04.2024 00:16:03.696 [main] INFO  o.a.c.c.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.19]
-14.04.2024 00:16:03.730 [main] INFO  o.a.c.c.C.[.[.[/] - Initializing Spring embedded WebApplicationContext
-14.04.2024 00:16:03.730 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 633 ms
-14.04.2024 00:16:03.908 [main] INFO  o.s.b.a.w.s.WelcomePageHandlerMapping - Adding welcome page: class path resource [static/index.html]
-14.04.2024 00:16:04.161 [main] INFO  o.a.c.h.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
-14.04.2024 00:16:04.177 [main] INFO  o.s.b.w.e.t.TomcatWebServer - Tomcat started on port 8080 (http) with context path ''
-14.04.2024 00:16:04.184 [main] INFO  r.f.i.p.PpkConverterGeojsonApplication - Started PpkConverterGeojsonApplication in 1.419 seconds (process running for 1.951)
-14.04.2024 00:16:06.529 [http-nio-8080-exec-2] INFO  o.a.c.c.C.[.[.[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
-14.04.2024 00:16:06.529 [http-nio-8080-exec-2] INFO  o.s.w.s.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
-14.04.2024 00:16:06.530 [http-nio-8080-exec-2] INFO  o.s.w.s.DispatcherServlet - Completed initialization in 1 ms
-14.04.2024 00:16:06.568 [http-nio-8080-exec-5] WARN  r.f.i.p.c.CommonExceptionHandler - No static resource favicon.ico.
-14.04.2024 00:16:11.941 [http-nio-8080-exec-3] INFO  r.f.i.p.s.PpkConverterServiceImpl - start converting convertToGeojson
-14.04.2024 00:16:12.069 [http-nio-8080-exec-3] INFO  r.f.i.p.s.PpkConverterServiceImpl - end converting convertToGeojson
-14.04.2024 00:24:53.981 [main] INFO  r.f.i.p.PpkConverterGeojsonApplication - Starting PpkConverterGeojsonApplication using Java 17.0.9 with PID 21604 (C:\Users\Denis\IdeaProjects\ppk-converter-geojson\target\classes started by Denis in C:\Users\Denis\IdeaProjects\ppk-converter-geojson)
-14.04.2024 00:24:53.982 [main] INFO  r.f.i.p.PpkConverterGeojsonApplication - No active profile set, falling back to 1 default profile: "default"
-14.04.2024 00:24:54.582 [main] INFO  o.s.b.w.e.t.TomcatWebServer - Tomcat initialized with port 8080 (http)
-14.04.2024 00:24:54.588 [main] INFO  o.a.c.h.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
-14.04.2024 00:24:54.589 [main] INFO  o.a.c.c.StandardService - Starting service [Tomcat]
-14.04.2024 00:24:54.590 [main] INFO  o.a.c.c.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.19]
-14.04.2024 00:24:54.631 [main] INFO  o.a.c.c.C.[.[.[/] - Initializing Spring embedded WebApplicationContext
-14.04.2024 00:24:54.632 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 621 ms
-14.04.2024 00:24:54.789 [main] INFO  o.s.b.a.w.s.WelcomePageHandlerMapping - Adding welcome page: class path resource [static/index.html]
-14.04.2024 00:24:54.987 [main] INFO  o.a.c.h.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
-14.04.2024 00:24:54.998 [main] INFO  o.s.b.w.e.t.TomcatWebServer - Tomcat started on port 8080 (http) with context path ''
-14.04.2024 00:24:55.005 [main] INFO  r.f.i.p.PpkConverterGeojsonApplication - Started PpkConverterGeojsonApplication in 1.259 seconds (process running for 1.689)
-14.04.2024 00:25:03.180 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[.[.[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
-14.04.2024 00:25:03.181 [http-nio-8080-exec-1] INFO  o.s.w.s.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
-14.04.2024 00:25:03.182 [http-nio-8080-exec-1] INFO  o.s.w.s.DispatcherServlet - Completed initialization in 1 ms
-14.04.2024 00:25:04.118 [http-nio-8080-exec-4] WARN  r.f.i.p.c.CommonExceptionHandler - No static resource favicon.ico.
-14.04.2024 00:25:07.241 [http-nio-8080-exec-7] INFO  r.f.i.p.s.PpkConverterServiceImpl - start converting convertToGeojson
-14.04.2024 00:25:07.316 [http-nio-8080-exec-7] INFO  r.f.i.p.s.PpkConverterServiceImpl - end converting convertToGeojson
-14.04.2024 00:29:19.040 [main] INFO  r.f.i.p.PpkConverterGeojsonApplication - Starting PpkConverterGeojsonApplication using Java 17.0.9 with PID 18028 (C:\Users\Denis\IdeaProjects\ppk-converter-geojson\target\classes started by Denis in C:\Users\Denis\IdeaProjects\ppk-converter-geojson)
-14.04.2024 00:29:19.042 [main] INFO  r.f.i.p.PpkConverterGeojsonApplication - No active profile set, falling back to 1 default profile: "default"
-14.04.2024 00:29:19.643 [main] INFO  o.s.b.w.e.t.TomcatWebServer - Tomcat initialized with port 8080 (http)
-14.04.2024 00:29:19.651 [main] INFO  o.a.c.h.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
-14.04.2024 00:29:19.653 [main] INFO  o.a.c.c.StandardService - Starting service [Tomcat]
-14.04.2024 00:29:19.654 [main] INFO  o.a.c.c.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.19]
-14.04.2024 00:29:19.689 [main] INFO  o.a.c.c.C.[.[.[/] - Initializing Spring embedded WebApplicationContext
-14.04.2024 00:29:19.689 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 623 ms
-14.04.2024 00:29:19.852 [main] INFO  o.s.b.a.w.s.WelcomePageHandlerMapping - Adding welcome page: class path resource [static/index.html]
-14.04.2024 00:29:20.073 [main] INFO  o.a.c.h.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
-14.04.2024 00:29:20.085 [main] INFO  o.s.b.w.e.t.TomcatWebServer - Tomcat started on port 8080 (http) with context path ''
-14.04.2024 00:29:20.091 [main] INFO  r.f.i.p.PpkConverterGeojsonApplication - Started PpkConverterGeojsonApplication in 1.27 seconds (process running for 1.688)
-14.04.2024 00:29:24.588 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[.[.[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
-14.04.2024 00:29:24.589 [http-nio-8080-exec-1] INFO  o.s.w.s.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
-14.04.2024 00:29:24.590 [http-nio-8080-exec-1] INFO  o.s.w.s.DispatcherServlet - Completed initialization in 1 ms
-14.04.2024 00:29:25.599 [http-nio-8080-exec-3] WARN  r.f.i.p.c.CommonExceptionHandler - No static resource favicon.ico.
-14.04.2024 00:29:29.432 [http-nio-8080-exec-2] INFO  r.f.i.p.s.PpkConverterServiceImpl - start converting convertToGeojson
-14.04.2024 00:29:29.489 [http-nio-8080-exec-2] INFO  r.f.i.p.s.PpkConverterServiceImpl - end converting convertToGeojson
-14.04.2024 00:30:06.181 [main] INFO  r.f.i.p.PpkConverterGeojsonApplication - Starting PpkConverterGeojsonApplication using Java 17.0.9 with PID 21320 (C:\Users\Denis\IdeaProjects\ppk-converter-geojson\target\classes started by Denis in C:\Users\Denis\IdeaProjects\ppk-converter-geojson)
-14.04.2024 00:30:06.183 [main] INFO  r.f.i.p.PpkConverterGeojsonApplication - No active profile set, falling back to 1 default profile: "default"
-14.04.2024 00:30:06.735 [main] INFO  o.s.b.w.e.t.TomcatWebServer - Tomcat initialized with port 8080 (http)
-14.04.2024 00:30:06.741 [main] INFO  o.a.c.h.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
-14.04.2024 00:30:06.743 [main] INFO  o.a.c.c.StandardService - Starting service [Tomcat]
-14.04.2024 00:30:06.743 [main] INFO  o.a.c.c.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.19]
-14.04.2024 00:30:06.789 [main] INFO  o.a.c.c.C.[.[.[/] - Initializing Spring embedded WebApplicationContext
-14.04.2024 00:30:06.789 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 579 ms
-14.04.2024 00:30:06.937 [main] INFO  o.s.b.a.w.s.WelcomePageHandlerMapping - Adding welcome page: class path resource [static/index.html]
-14.04.2024 00:30:07.119 [main] INFO  o.a.c.h.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
-14.04.2024 00:30:07.130 [main] INFO  o.s.b.w.e.t.TomcatWebServer - Tomcat started on port 8080 (http) with context path ''
-14.04.2024 00:30:07.137 [main] INFO  r.f.i.p.PpkConverterGeojsonApplication - Started PpkConverterGeojsonApplication in 1.199 seconds (process running for 1.605)
-14.04.2024 00:30:11.208 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[.[.[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
-14.04.2024 00:30:11.208 [http-nio-8080-exec-1] INFO  o.s.w.s.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
-14.04.2024 00:30:11.209 [http-nio-8080-exec-1] INFO  o.s.w.s.DispatcherServlet - Completed initialization in 1 ms
-14.04.2024 00:30:11.225 [http-nio-8080-exec-1] WARN  r.f.i.p.c.CommonExceptionHandler - No static resource favicon.ico.
-14.04.2024 00:30:14.193 [http-nio-8080-exec-2] INFO  r.f.i.p.s.PpkConverterServiceImpl - start converting convertToGeojson
-14.04.2024 00:30:14.265 [http-nio-8080-exec-2] INFO  r.f.i.p.s.PpkConverterServiceImpl - end converting convertToGeojson
-14.04.2024 00:32:52.175 [main] INFO  r.f.i.p.PpkConverterGeojsonApplication - Starting PpkConverterGeojsonApplication using Java 17.0.9 with PID 21860 (C:\Users\Denis\IdeaProjects\ppk-converter-geojson\target\classes started by Denis in C:\Users\Denis\IdeaProjects\ppk-converter-geojson)
-14.04.2024 00:32:52.177 [main] INFO  r.f.i.p.PpkConverterGeojsonApplication - No active profile set, falling back to 1 default profile: "default"
-14.04.2024 00:32:52.740 [main] INFO  o.s.b.w.e.t.TomcatWebServer - Tomcat initialized with port 8080 (http)
-14.04.2024 00:32:52.746 [main] INFO  o.a.c.h.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
-14.04.2024 00:32:52.747 [main] INFO  o.a.c.c.StandardService - Starting service [Tomcat]
-14.04.2024 00:32:52.748 [main] INFO  o.a.c.c.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.19]
-14.04.2024 00:32:52.782 [main] INFO  o.a.c.c.C.[.[.[/] - Initializing Spring embedded WebApplicationContext
-14.04.2024 00:32:52.782 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 580 ms
-14.04.2024 00:32:52.920 [main] INFO  o.s.b.a.w.s.WelcomePageHandlerMapping - Adding welcome page: class path resource [static/index.html]
-14.04.2024 00:32:53.126 [main] INFO  o.a.c.h.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
-14.04.2024 00:32:53.139 [main] INFO  o.s.b.w.e.t.TomcatWebServer - Tomcat started on port 8080 (http) with context path ''
-14.04.2024 00:32:53.146 [main] INFO  r.f.i.p.PpkConverterGeojsonApplication - Started PpkConverterGeojsonApplication in 1.198 seconds (process running for 1.612)
-14.04.2024 00:32:57.218 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[.[.[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
-14.04.2024 00:32:57.218 [http-nio-8080-exec-1] INFO  o.s.w.s.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
-14.04.2024 00:32:57.218 [http-nio-8080-exec-1] INFO  o.s.w.s.DispatcherServlet - Completed initialization in 0 ms
-14.04.2024 00:32:57.274 [http-nio-8080-exec-3] WARN  r.f.i.p.c.CommonExceptionHandler - No static resource favicon.ico.
-14.04.2024 00:33:00.218 [http-nio-8080-exec-4] INFO  r.f.i.p.s.PpkConverterServiceImpl - start converting convertToGeojson
-14.04.2024 00:33:00.352 [http-nio-8080-exec-4] INFO  r.f.i.p.s.PpkConverterServiceImpl - end converting convertToGeojson
-14.04.2024 00:33:57.267 [main] INFO  r.f.i.p.PpkConverterGeojsonApplication - Starting PpkConverterGeojsonApplication using Java 17.0.9 with PID 19452 (C:\Users\Denis\IdeaProjects\ppk-converter-geojson\target\classes started by Denis in C:\Users\Denis\IdeaProjects\ppk-converter-geojson)
-14.04.2024 00:33:57.268 [main] INFO  r.f.i.p.PpkConverterGeojsonApplication - No active profile set, falling back to 1 default profile: "default"
-14.04.2024 00:33:57.811 [main] INFO  o.s.b.w.e.t.TomcatWebServer - Tomcat initialized with port 8080 (http)
-14.04.2024 00:33:57.817 [main] INFO  o.a.c.h.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
-14.04.2024 00:33:57.818 [main] INFO  o.a.c.c.StandardService - Starting service [Tomcat]
-14.04.2024 00:33:57.818 [main] INFO  o.a.c.c.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.19]
-14.04.2024 00:33:57.856 [main] INFO  o.a.c.c.C.[.[.[/] - Initializing Spring embedded WebApplicationContext
-14.04.2024 00:33:57.856 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 564 ms
-14.04.2024 00:33:58.007 [main] INFO  o.s.b.a.w.s.WelcomePageHandlerMapping - Adding welcome page: class path resource [static/index.html]
-14.04.2024 00:33:58.198 [main] INFO  o.a.c.h.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
-14.04.2024 00:33:58.213 [main] INFO  o.s.b.w.e.t.TomcatWebServer - Tomcat started on port 8080 (http) with context path ''
-14.04.2024 00:33:58.218 [main] INFO  r.f.i.p.PpkConverterGeojsonApplication - Started PpkConverterGeojsonApplication in 1.161 seconds (process running for 1.556)
-14.04.2024 00:34:01.531 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[.[.[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
-14.04.2024 00:34:01.531 [http-nio-8080-exec-1] INFO  o.s.w.s.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
-14.04.2024 00:34:01.532 [http-nio-8080-exec-1] INFO  o.s.w.s.DispatcherServlet - Completed initialization in 1 ms
-14.04.2024 00:34:01.591 [http-nio-8080-exec-9] WARN  r.f.i.p.c.CommonExceptionHandler - No static resource favicon.ico.
-14.04.2024 00:34:05.367 [http-nio-8080-exec-3] INFO  r.f.i.p.s.PpkConverterServiceImpl - start converting convertToGeojson
-14.04.2024 00:34:05.537 [http-nio-8080-exec-3] INFO  r.f.i.p.s.PpkConverterServiceImpl - end converting convertToGeojson
-14.04.2024 00:34:29.957 [main] INFO  r.f.i.p.PpkConverterGeojsonApplication - Starting PpkConverterGeojsonApplication using Java 17.0.9 with PID 2888 (C:\Users\Denis\IdeaProjects\ppk-converter-geojson\target\classes started by Denis in C:\Users\Denis\IdeaProjects\ppk-converter-geojson)
-14.04.2024 00:34:29.959 [main] INFO  r.f.i.p.PpkConverterGeojsonApplication - No active profile set, falling back to 1 default profile: "default"
-14.04.2024 00:34:30.524 [main] INFO  o.s.b.w.e.t.TomcatWebServer - Tomcat initialized with port 8080 (http)
-14.04.2024 00:34:30.530 [main] INFO  o.a.c.h.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
-14.04.2024 00:34:30.531 [main] INFO  o.a.c.c.StandardService - Starting service [Tomcat]
-14.04.2024 00:34:30.532 [main] INFO  o.a.c.c.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.19]
-14.04.2024 00:34:30.569 [main] INFO  o.a.c.c.C.[.[.[/] - Initializing Spring embedded WebApplicationContext
-14.04.2024 00:34:30.569 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 586 ms
-14.04.2024 00:34:30.729 [main] INFO  o.s.b.a.w.s.WelcomePageHandlerMapping - Adding welcome page: class path resource [static/index.html]
-14.04.2024 00:34:30.918 [main] INFO  o.a.c.h.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
-14.04.2024 00:34:30.931 [main] INFO  o.s.b.w.e.t.TomcatWebServer - Tomcat started on port 8080 (http) with context path ''
-14.04.2024 00:34:30.938 [main] INFO  r.f.i.p.PpkConverterGeojsonApplication - Started PpkConverterGeojsonApplication in 1.216 seconds (process running for 1.625)
-14.04.2024 00:34:36.439 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[.[.[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
-14.04.2024 00:34:36.439 [http-nio-8080-exec-1] INFO  o.s.w.s.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
-14.04.2024 00:34:36.439 [http-nio-8080-exec-1] INFO  o.s.w.s.DispatcherServlet - Completed initialization in 0 ms
-14.04.2024 00:34:36.511 [http-nio-8080-exec-3] WARN  r.f.i.p.c.CommonExceptionHandler - No static resource favicon.ico.
-14.04.2024 00:34:39.489 [http-nio-8080-exec-2] INFO  r.f.i.p.s.PpkConverterServiceImpl - start converting convertToGeojson
-14.04.2024 00:34:39.555 [http-nio-8080-exec-2] INFO  r.f.i.p.s.PpkConverterServiceImpl - end converting convertToGeojson
-14.04.2024 00:34:49.641 [main] INFO  r.f.i.p.PpkConverterGeojsonApplication - Starting PpkConverterGeojsonApplication using Java 17.0.9 with PID 22468 (C:\Users\Denis\IdeaProjects\ppk-converter-geojson\target\classes started by Denis in C:\Users\Denis\IdeaProjects\ppk-converter-geojson)
-14.04.2024 00:34:49.643 [main] INFO  r.f.i.p.PpkConverterGeojsonApplication - No active profile set, falling back to 1 default profile: "default"
-14.04.2024 00:34:50.244 [main] INFO  o.s.b.w.e.t.TomcatWebServer - Tomcat initialized with port 8080 (http)
-14.04.2024 00:34:50.250 [main] INFO  o.a.c.h.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
-14.04.2024 00:34:50.251 [main] INFO  o.a.c.c.StandardService - Starting service [Tomcat]
-14.04.2024 00:34:50.252 [main] INFO  o.a.c.c.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.19]
-14.04.2024 00:34:50.297 [main] INFO  o.a.c.c.C.[.[.[/] - Initializing Spring embedded WebApplicationContext
-14.04.2024 00:34:50.298 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 629 ms
-14.04.2024 00:34:50.442 [main] INFO  o.s.b.a.w.s.WelcomePageHandlerMapping - Adding welcome page: class path resource [static/index.html]
-14.04.2024 00:34:50.631 [main] INFO  o.a.c.h.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
-14.04.2024 00:34:50.650 [main] INFO  o.s.b.w.e.t.TomcatWebServer - Tomcat started on port 8080 (http) with context path ''
-14.04.2024 00:34:50.659 [main] INFO  r.f.i.p.PpkConverterGeojsonApplication - Started PpkConverterGeojsonApplication in 1.239 seconds (process running for 1.644)
-14.04.2024 00:34:53.876 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[.[.[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
-14.04.2024 00:34:53.876 [http-nio-8080-exec-1] INFO  o.s.w.s.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
-14.04.2024 00:34:53.877 [http-nio-8080-exec-1] INFO  o.s.w.s.DispatcherServlet - Completed initialization in 1 ms
-14.04.2024 00:34:54.712 [http-nio-8080-exec-2] WARN  r.f.i.p.c.CommonExceptionHandler - No static resource favicon.ico.
-14.04.2024 00:34:58.939 [http-nio-8080-exec-3] INFO  r.f.i.p.s.PpkConverterServiceImpl - start converting convertToGeojson
-14.04.2024 00:34:59.066 [http-nio-8080-exec-3] INFO  r.f.i.p.s.PpkConverterServiceImpl - end converting convertToGeojson
-14.04.2024 00:35:15.345 [http-nio-8080-exec-5] WARN  r.f.i.p.c.CommonExceptionHandler - No static resource favicon.ico.
-14.04.2024 00:35:18.477 [http-nio-8080-exec-6] INFO  r.f.i.p.s.PpkConverterServiceImpl - start converting convertToGeojson
-14.04.2024 00:35:18.482 [http-nio-8080-exec-6] INFO  r.f.i.p.s.PpkConverterServiceImpl - end converting convertToGeojson
-14.04.2024 00:35:35.690 [main] INFO  r.f.i.p.PpkConverterGeojsonApplication - Starting PpkConverterGeojsonApplication using Java 17.0.9 with PID 9168 (C:\Users\Denis\IdeaProjects\ppk-converter-geojson\target\classes started by Denis in C:\Users\Denis\IdeaProjects\ppk-converter-geojson)
-14.04.2024 00:35:35.692 [main] INFO  r.f.i.p.PpkConverterGeojsonApplication - No active profile set, falling back to 1 default profile: "default"
-14.04.2024 00:35:36.249 [main] INFO  o.s.b.w.e.t.TomcatWebServer - Tomcat initialized with port 8080 (http)
-14.04.2024 00:35:36.255 [main] INFO  o.a.c.h.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
-14.04.2024 00:35:36.257 [main] INFO  o.a.c.c.StandardService - Starting service [Tomcat]
-14.04.2024 00:35:36.257 [main] INFO  o.a.c.c.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.19]
-14.04.2024 00:35:36.300 [main] INFO  o.a.c.c.C.[.[.[/] - Initializing Spring embedded WebApplicationContext
-14.04.2024 00:35:36.300 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 580 ms
-14.04.2024 00:35:36.430 [main] INFO  o.s.b.a.w.s.WelcomePageHandlerMapping - Adding welcome page: class path resource [static/index.html]
-14.04.2024 00:35:36.613 [main] INFO  o.a.c.h.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
-14.04.2024 00:35:36.623 [main] INFO  o.s.b.w.e.t.TomcatWebServer - Tomcat started on port 8080 (http) with context path ''
-14.04.2024 00:35:36.630 [main] INFO  r.f.i.p.PpkConverterGeojsonApplication - Started PpkConverterGeojsonApplication in 1.172 seconds (process running for 1.603)
-14.04.2024 00:35:40.351 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[.[.[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
-14.04.2024 00:35:40.351 [http-nio-8080-exec-1] INFO  o.s.w.s.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
-14.04.2024 00:35:40.352 [http-nio-8080-exec-1] INFO  o.s.w.s.DispatcherServlet - Completed initialization in 1 ms
-14.04.2024 00:35:40.441 [http-nio-8080-exec-5] WARN  r.f.i.p.c.CommonExceptionHandler - No static resource favicon.ico.
-14.04.2024 00:35:43.317 [http-nio-8080-exec-7] INFO  r.f.i.p.s.PpkConverterServiceImpl - start converting convertToGeojson
-14.04.2024 00:35:43.440 [http-nio-8080-exec-7] INFO  r.f.i.p.s.PpkConverterServiceImpl - end converting convertToGeojson
-14.04.2024 00:38:24.381 [main] INFO  r.f.i.p.PpkConverterGeojsonApplication - Starting PpkConverterGeojsonApplication using Java 17.0.9 with PID 18564 (C:\Users\Denis\IdeaProjects\ppk-converter-geojson\target\classes started by Denis in C:\Users\Denis\IdeaProjects\ppk-converter-geojson)
-14.04.2024 00:38:24.382 [main] INFO  r.f.i.p.PpkConverterGeojsonApplication - No active profile set, falling back to 1 default profile: "default"
-14.04.2024 00:38:24.951 [main] INFO  o.s.b.w.e.t.TomcatWebServer - Tomcat initialized with port 8080 (http)
-14.04.2024 00:38:24.963 [main] INFO  o.a.c.h.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
-14.04.2024 00:38:24.964 [main] INFO  o.a.c.c.StandardService - Starting service [Tomcat]
-14.04.2024 00:38:24.964 [main] INFO  o.a.c.c.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.19]
-14.04.2024 00:38:25.002 [main] INFO  o.a.c.c.C.[.[.[/] - Initializing Spring embedded WebApplicationContext
-14.04.2024 00:38:25.002 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 595 ms
-14.04.2024 00:38:25.156 [main] INFO  o.s.b.a.w.s.WelcomePageHandlerMapping - Adding welcome page: class path resource [static/index.html]
-14.04.2024 00:38:25.372 [main] INFO  o.a.c.h.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
-14.04.2024 00:38:25.383 [main] INFO  o.s.b.w.e.t.TomcatWebServer - Tomcat started on port 8080 (http) with context path ''
-14.04.2024 00:38:25.390 [main] INFO  r.f.i.p.PpkConverterGeojsonApplication - Started PpkConverterGeojsonApplication in 1.234 seconds (process running for 1.648)
-14.04.2024 00:38:29.174 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[.[.[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
-14.04.2024 00:38:29.174 [http-nio-8080-exec-1] INFO  o.s.w.s.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
-14.04.2024 00:38:29.175 [http-nio-8080-exec-1] INFO  o.s.w.s.DispatcherServlet - Completed initialization in 1 ms
-14.04.2024 00:38:29.229 [http-nio-8080-exec-2] WARN  r.f.i.p.c.CommonExceptionHandler - No static resource favicon.ico.
-14.04.2024 00:38:32.538 [http-nio-8080-exec-3] INFO  r.f.i.p.s.PpkConverterServiceImpl - start converting convertToGeojson
-14.04.2024 00:38:32.670 [http-nio-8080-exec-3] INFO  r.f.i.p.s.PpkConverterServiceImpl - end converting convertToGeojson
-14.04.2024 00:41:29.831 [main] INFO  r.f.i.p.PpkConverterGeojsonApplication - Starting PpkConverterGeojsonApplication using Java 17.0.9 with PID 4588 (C:\Users\Denis\IdeaProjects\ppk-converter-geojson\target\classes started by Denis in C:\Users\Denis\IdeaProjects\ppk-converter-geojson)
-14.04.2024 00:41:29.833 [main] INFO  r.f.i.p.PpkConverterGeojsonApplication - No active profile set, falling back to 1 default profile: "default"
-14.04.2024 00:41:30.409 [main] INFO  o.s.b.w.e.t.TomcatWebServer - Tomcat initialized with port 8080 (http)
-14.04.2024 00:41:30.416 [main] INFO  o.a.c.h.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
-14.04.2024 00:41:30.417 [main] INFO  o.a.c.c.StandardService - Starting service [Tomcat]
-14.04.2024 00:41:30.417 [main] INFO  o.a.c.c.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.19]
-14.04.2024 00:41:30.450 [main] INFO  o.a.c.c.C.[.[.[/] - Initializing Spring embedded WebApplicationContext
-14.04.2024 00:41:30.450 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 591 ms
-14.04.2024 00:41:30.585 [main] INFO  o.s.b.a.w.s.WelcomePageHandlerMapping - Adding welcome page: class path resource [static/index.html]
-14.04.2024 00:41:30.774 [main] INFO  o.a.c.h.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
-14.04.2024 00:41:30.784 [main] INFO  o.s.b.w.e.t.TomcatWebServer - Tomcat started on port 8080 (http) with context path ''
-14.04.2024 00:41:30.790 [main] INFO  r.f.i.p.PpkConverterGeojsonApplication - Started PpkConverterGeojsonApplication in 1.184 seconds (process running for 1.568)
-14.04.2024 00:41:34.941 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[.[.[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
-14.04.2024 00:41:34.942 [http-nio-8080-exec-1] INFO  o.s.w.s.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
-14.04.2024 00:41:34.942 [http-nio-8080-exec-1] INFO  o.s.w.s.DispatcherServlet - Completed initialization in 0 ms
-14.04.2024 00:41:35.800 [http-nio-8080-exec-2] WARN  r.f.i.p.c.CommonExceptionHandler - No static resource favicon.ico.
-14.04.2024 00:41:38.887 [http-nio-8080-exec-4] WARN  o.s.w.s.r.ResourceHttpRequestHandler - "Path represents URL or has "url:" prefix: [ https:/pkk.rosreestr.ru]"
-14.04.2024 00:41:38.888 [http-nio-8080-exec-4] WARN  r.f.i.p.c.CommonExceptionHandler - No static resource %20https:/pkk.rosreestr.ru.
-14.04.2024 00:41:38.979 [http-nio-8080-exec-5] WARN  r.f.i.p.c.CommonExceptionHandler - No static resource favicon.ico.
-14.04.2024 00:48:08.094 [main] INFO  r.f.i.p.PpkConverterGeojsonApplication - Starting PpkConverterGeojsonApplication using Java 17.0.9 with PID 22128 (C:\Users\Denis\IdeaProjects\ppk-converter-geojson\target\classes started by Denis in C:\Users\Denis\IdeaProjects\ppk-converter-geojson)
-14.04.2024 00:48:08.096 [main] INFO  r.f.i.p.PpkConverterGeojsonApplication - No active profile set, falling back to 1 default profile: "default"
-14.04.2024 00:48:08.739 [main] INFO  o.s.b.w.e.t.TomcatWebServer - Tomcat initialized with port 8080 (http)
-14.04.2024 00:48:08.746 [main] INFO  o.a.c.h.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
-14.04.2024 00:48:08.748 [main] INFO  o.a.c.c.StandardService - Starting service [Tomcat]
-14.04.2024 00:48:08.748 [main] INFO  o.a.c.c.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.19]
-14.04.2024 00:48:08.799 [main] INFO  o.a.c.c.C.[.[.[/] - Initializing Spring embedded WebApplicationContext
-14.04.2024 00:48:08.799 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 676 ms
-14.04.2024 00:48:08.959 [main] INFO  o.s.b.a.w.s.WelcomePageHandlerMapping - Adding welcome page: class path resource [static/index.html]
-14.04.2024 00:48:09.153 [main] INFO  o.a.c.h.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
-14.04.2024 00:48:09.166 [main] INFO  o.s.b.w.e.t.TomcatWebServer - Tomcat started on port 8080 (http) with context path ''
-14.04.2024 00:48:09.172 [main] INFO  r.f.i.p.PpkConverterGeojsonApplication - Started PpkConverterGeojsonApplication in 1.304 seconds (process running for 1.721)
-14.04.2024 00:49:07.685 [main] INFO  r.f.i.p.PpkConverterGeojsonApplication - Starting PpkConverterGeojsonApplication using Java 17.0.9 with PID 7480 (C:\Users\Denis\IdeaProjects\ppk-converter-geojson\target\classes started by Denis in C:\Users\Denis\IdeaProjects\ppk-converter-geojson)
-14.04.2024 00:49:07.687 [main] INFO  r.f.i.p.PpkConverterGeojsonApplication - No active profile set, falling back to 1 default profile: "default"
-14.04.2024 00:49:08.257 [main] INFO  o.s.b.w.e.t.TomcatWebServer - Tomcat initialized with port 8080 (http)
-14.04.2024 00:49:08.264 [main] INFO  o.a.c.h.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
-14.04.2024 00:49:08.265 [main] INFO  o.a.c.c.StandardService - Starting service [Tomcat]
-14.04.2024 00:49:08.265 [main] INFO  o.a.c.c.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.19]
-14.04.2024 00:49:08.300 [main] INFO  o.a.c.c.C.[.[.[/] - Initializing Spring embedded WebApplicationContext
-14.04.2024 00:49:08.300 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 588 ms
-14.04.2024 00:49:08.430 [main] INFO  o.s.b.a.w.s.WelcomePageHandlerMapping - Adding welcome page: class path resource [static/index.html]
-14.04.2024 00:49:08.609 [main] INFO  o.a.c.h.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
-14.04.2024 00:49:08.619 [main] INFO  o.s.b.w.e.t.TomcatWebServer - Tomcat started on port 8080 (http) with context path ''
-14.04.2024 00:49:08.625 [main] INFO  r.f.i.p.PpkConverterGeojsonApplication - Started PpkConverterGeojsonApplication in 1.176 seconds (process running for 1.541)
-14.04.2024 00:49:13.677 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[.[.[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
-14.04.2024 00:49:13.677 [http-nio-8080-exec-1] INFO  o.s.w.s.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
-14.04.2024 00:49:13.678 [http-nio-8080-exec-1] INFO  o.s.w.s.DispatcherServlet - Completed initialization in 1 ms
-14.04.2024 00:49:14.484 [http-nio-8080-exec-10] WARN  r.f.i.p.c.CommonExceptionHandler - No static resource favicon.ico.
-14.04.2024 00:49:17.657 [http-nio-8080-exec-2] INFO  r.f.i.p.s.PpkConverterServiceImpl - start converting convertToGeojson
-14.04.2024 00:49:17.787 [http-nio-8080-exec-2] INFO  r.f.i.p.s.PpkConverterServiceImpl - end converting convertToGeojson
-14.04.2024 00:49:28.055 [main] INFO  r.f.i.p.PpkConverterGeojsonApplication - Starting PpkConverterGeojsonApplication using Java 17.0.9 with PID 8600 (C:\Users\Denis\IdeaProjects\ppk-converter-geojson\target\classes started by Denis in C:\Users\Denis\IdeaProjects\ppk-converter-geojson)
-14.04.2024 00:49:28.056 [main] INFO  r.f.i.p.PpkConverterGeojsonApplication - No active profile set, falling back to 1 default profile: "default"
-14.04.2024 00:49:28.630 [main] INFO  o.s.b.w.e.t.TomcatWebServer - Tomcat initialized with port 8080 (http)
-14.04.2024 00:49:28.638 [main] INFO  o.a.c.h.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
-14.04.2024 00:49:28.638 [main] INFO  o.a.c.c.StandardService - Starting service [Tomcat]
-14.04.2024 00:49:28.639 [main] INFO  o.a.c.c.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.19]
-14.04.2024 00:49:28.671 [main] INFO  o.a.c.c.C.[.[.[/] - Initializing Spring embedded WebApplicationContext
-14.04.2024 00:49:28.671 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 586 ms
-14.04.2024 00:49:28.807 [main] INFO  o.s.b.a.w.s.WelcomePageHandlerMapping - Adding welcome page: class path resource [static/index.html]
-14.04.2024 00:49:29.002 [main] INFO  o.a.c.h.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
-14.04.2024 00:49:29.018 [main] INFO  o.s.b.w.e.t.TomcatWebServer - Tomcat started on port 8080 (http) with context path ''
-14.04.2024 00:49:29.023 [main] INFO  r.f.i.p.PpkConverterGeojsonApplication - Started PpkConverterGeojsonApplication in 1.203 seconds (process running for 1.61)
-14.04.2024 00:49:32.233 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[.[.[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
-14.04.2024 00:49:32.234 [http-nio-8080-exec-1] INFO  o.s.w.s.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
-14.04.2024 00:49:32.236 [http-nio-8080-exec-1] INFO  o.s.w.s.DispatcherServlet - Completed initialization in 2 ms
-14.04.2024 00:49:32.310 [http-nio-8080-exec-3] WARN  r.f.i.p.c.CommonExceptionHandler - No static resource favicon.ico.
-14.04.2024 00:49:35.144 [http-nio-8080-exec-2] INFO  r.f.i.p.s.PpkConverterServiceImpl - start converting convertToGeojson
-14.04.2024 00:49:35.197 [http-nio-8080-exec-2] INFO  r.f.i.p.s.PpkConverterServiceImpl - end converting convertToGeojson
-14.04.2024 00:50:20.547 [main] INFO  r.f.i.p.PpkConverterGeojsonApplication - Starting PpkConverterGeojsonApplication using Java 17.0.9 with PID 19096 (C:\Users\Denis\IdeaProjects\ppk-converter-geojson\target\classes started by Denis in C:\Users\Denis\IdeaProjects\ppk-converter-geojson)
-14.04.2024 00:50:20.549 [main] INFO  r.f.i.p.PpkConverterGeojsonApplication - No active profile set, falling back to 1 default profile: "default"
-14.04.2024 00:50:21.123 [main] INFO  o.s.b.w.e.t.TomcatWebServer - Tomcat initialized with port 8080 (http)
-14.04.2024 00:50:21.133 [main] INFO  o.a.c.h.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
-14.04.2024 00:50:21.135 [main] INFO  o.a.c.c.StandardService - Starting service [Tomcat]
-14.04.2024 00:50:21.135 [main] INFO  o.a.c.c.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.19]
-14.04.2024 00:50:21.173 [main] INFO  o.a.c.c.C.[.[.[/] - Initializing Spring embedded WebApplicationContext
-14.04.2024 00:50:21.173 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 598 ms
-14.04.2024 00:50:21.323 [main] INFO  o.s.b.a.w.s.WelcomePageHandlerMapping - Adding welcome page: class path resource [static/index.html]
-14.04.2024 00:50:21.525 [main] INFO  o.a.c.h.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
-14.04.2024 00:50:21.535 [main] INFO  o.s.b.w.e.t.TomcatWebServer - Tomcat started on port 8080 (http) with context path ''
-14.04.2024 00:50:21.541 [main] INFO  r.f.i.p.PpkConverterGeojsonApplication - Started PpkConverterGeojsonApplication in 1.209 seconds (process running for 1.622)
-14.04.2024 00:50:27.009 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[.[.[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
-14.04.2024 00:50:27.010 [http-nio-8080-exec-1] INFO  o.s.w.s.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
-14.04.2024 00:50:27.010 [http-nio-8080-exec-1] INFO  o.s.w.s.DispatcherServlet - Completed initialization in 0 ms
-14.04.2024 00:50:27.050 [http-nio-8080-exec-1] INFO  r.f.i.p.s.PpkConverterServiceImpl - start converting convertToGeojson
-14.04.2024 00:50:27.159 [http-nio-8080-exec-1] INFO  r.f.i.p.s.PpkConverterServiceImpl - end converting convertToGeojson
-14.04.2024 08:20:51.132 [main] INFO  r.f.i.p.PpkConverterGeojsonApplication - Starting PpkConverterGeojsonApplication using Java 17.0.9 with PID 8780 (C:\Users\Denis\IdeaProjects\ppk-converter-geojson\target\classes started by Denis in C:\Users\Denis\IdeaProjects\ppk-converter-geojson)
-14.04.2024 08:20:51.134 [main] INFO  r.f.i.p.PpkConverterGeojsonApplication - No active profile set, falling back to 1 default profile: "default"
-14.04.2024 08:20:51.801 [main] INFO  o.s.b.w.e.t.TomcatWebServer - Tomcat initialized with port 8080 (http)
-14.04.2024 08:20:51.810 [main] INFO  o.a.c.h.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
-14.04.2024 08:20:51.812 [main] INFO  o.a.c.c.StandardService - Starting service [Tomcat]
-14.04.2024 08:20:51.812 [main] INFO  o.a.c.c.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.19]
-14.04.2024 08:20:51.856 [main] INFO  o.a.c.c.C.[.[.[/] - Initializing Spring embedded WebApplicationContext
-14.04.2024 08:20:51.856 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 692 ms
-14.04.2024 08:20:51.989 [main] INFO  o.s.b.a.w.s.WelcomePageHandlerMapping - Adding welcome page: class path resource [static/index.html]
-14.04.2024 08:20:52.193 [main] INFO  o.a.c.h.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
-14.04.2024 08:20:52.203 [main] INFO  o.s.b.w.e.t.TomcatWebServer - Tomcat started on port 8080 (http) with context path ''
-14.04.2024 08:20:52.209 [main] INFO  r.f.i.p.PpkConverterGeojsonApplication - Started PpkConverterGeojsonApplication in 1.334 seconds (process running for 1.885)
-14.04.2024 08:20:57.927 [http-nio-8080-exec-2] INFO  o.a.c.c.C.[.[.[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
-14.04.2024 08:20:57.927 [http-nio-8080-exec-2] INFO  o.s.w.s.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
-14.04.2024 08:20:57.928 [http-nio-8080-exec-2] INFO  o.s.w.s.DispatcherServlet - Completed initialization in 1 ms
-14.04.2024 08:20:58.008 [http-nio-8080-exec-10] WARN  r.f.i.p.c.CommonExceptionHandler - No static resource favicon.ico.
-14.04.2024 08:21:02.696 [http-nio-8080-exec-5] INFO  r.f.i.p.s.PpkConverterServiceImpl - start converting convertToGeojson
-14.04.2024 08:21:02.757 [http-nio-8080-exec-5] INFO  r.f.i.p.s.PpkConverterServiceImpl - end converting convertToGeojson
-14.04.2024 08:21:44.202 [main] INFO  r.f.i.p.PpkConverterGeojsonApplication - Starting PpkConverterGeojsonApplication using Java 17.0.9 with PID 5156 (C:\Users\Denis\IdeaProjects\ppk-converter-geojson\target\classes started by Denis in C:\Users\Denis\IdeaProjects\ppk-converter-geojson)
-14.04.2024 08:21:44.203 [main] INFO  r.f.i.p.PpkConverterGeojsonApplication - No active profile set, falling back to 1 default profile: "default"
-14.04.2024 08:21:44.825 [main] INFO  o.s.b.w.e.t.TomcatWebServer - Tomcat initialized with port 8080 (http)
-14.04.2024 08:21:44.831 [main] INFO  o.a.c.h.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
-14.04.2024 08:21:44.833 [main] INFO  o.a.c.c.StandardService - Starting service [Tomcat]
-14.04.2024 08:21:44.833 [main] INFO  o.a.c.c.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.19]
-14.04.2024 08:21:44.877 [main] INFO  o.a.c.c.C.[.[.[/] - Initializing Spring embedded WebApplicationContext
-14.04.2024 08:21:44.877 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 649 ms
-14.04.2024 08:21:45.021 [main] INFO  o.s.b.a.w.s.WelcomePageHandlerMapping - Adding welcome page: class path resource [static/index.html]
-14.04.2024 08:21:45.238 [main] INFO  o.a.c.h.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
-14.04.2024 08:21:45.249 [main] INFO  o.s.b.w.e.t.TomcatWebServer - Tomcat started on port 8080 (http) with context path ''
-14.04.2024 08:21:45.255 [main] INFO  r.f.i.p.PpkConverterGeojsonApplication - Started PpkConverterGeojsonApplication in 1.269 seconds (process running for 1.716)
-14.04.2024 08:21:50.024 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[.[.[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
-14.04.2024 08:21:50.024 [http-nio-8080-exec-1] INFO  o.s.w.s.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
-14.04.2024 08:21:50.026 [http-nio-8080-exec-1] INFO  o.s.w.s.DispatcherServlet - Completed initialization in 1 ms
-14.04.2024 08:21:50.093 [http-nio-8080-exec-2] WARN  r.f.i.p.c.CommonExceptionHandler - No static resource favicon.ico.
-14.04.2024 08:21:53.125 [http-nio-8080-exec-3] INFO  r.f.i.p.s.PpkConverterServiceImpl - start converting convertToGeojson
-14.04.2024 08:21:53.240 [http-nio-8080-exec-3] INFO  r.f.i.p.s.PpkConverterServiceImpl - end converting convertToGeojson
-14.04.2024 08:23:59.096 [main] INFO  r.f.i.p.PpkConverterGeojsonApplication - Starting PpkConverterGeojsonApplication using Java 17.0.9 with PID 10640 (C:\Users\Denis\IdeaProjects\ppk-converter-geojson\target\classes started by Denis in C:\Users\Denis\IdeaProjects\ppk-converter-geojson)
-14.04.2024 08:23:59.098 [main] INFO  r.f.i.p.PpkConverterGeojsonApplication - No active profile set, falling back to 1 default profile: "default"
-14.04.2024 08:24:00.774 [main] INFO  o.s.b.w.e.t.TomcatWebServer - Tomcat initialized with port 8080 (http)
-14.04.2024 08:24:00.781 [main] INFO  o.a.c.h.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
-14.04.2024 08:24:00.782 [main] INFO  o.a.c.c.StandardService - Starting service [Tomcat]
-14.04.2024 08:24:00.782 [main] INFO  o.a.c.c.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.19]
-14.04.2024 08:24:00.813 [main] INFO  o.a.c.c.C.[.[.[/] - Initializing Spring embedded WebApplicationContext
-14.04.2024 08:24:00.813 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1684 ms
-14.04.2024 08:24:00.931 [main] INFO  o.s.b.a.w.s.WelcomePageHandlerMapping - Adding welcome page: class path resource [static/index.html]
-14.04.2024 08:24:01.106 [main] INFO  o.a.c.h.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
-14.04.2024 08:24:01.118 [main] INFO  o.s.b.w.e.t.TomcatWebServer - Tomcat started on port 8080 (http) with context path ''
-14.04.2024 08:24:01.125 [main] INFO  r.f.i.p.PpkConverterGeojsonApplication - Started PpkConverterGeojsonApplication in 2.262 seconds (process running for 2.699)
-14.04.2024 08:24:06.291 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[.[.[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
-14.04.2024 08:24:06.291 [http-nio-8080-exec-1] INFO  o.s.w.s.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
-14.04.2024 08:24:06.292 [http-nio-8080-exec-1] INFO  o.s.w.s.DispatcherServlet - Completed initialization in 1 ms
-14.04.2024 08:24:06.361 [http-nio-8080-exec-3] WARN  r.f.i.p.c.CommonExceptionHandler - No static resource favicon.ico.
-14.04.2024 08:24:09.497 [http-nio-8080-exec-4] INFO  r.f.i.p.s.PpkConverterServiceImpl - start converting convertToGeojson
-14.04.2024 08:24:09.621 [http-nio-8080-exec-4] INFO  r.f.i.p.s.PpkConverterServiceImpl - end converting convertToGeojson
-14.04.2024 08:33:52.765 [main] INFO  r.f.i.p.PpkConverterGeojsonApplication - Starting PpkConverterGeojsonApplication using Java 17.0.9 with PID 1948 (C:\Users\Denis\IdeaProjects\ppk-converter-geojson\target\classes started by Denis in C:\Users\Denis\IdeaProjects\ppk-converter-geojson)
-14.04.2024 08:33:52.766 [main] INFO  r.f.i.p.PpkConverterGeojsonApplication - No active profile set, falling back to 1 default profile: "default"
-14.04.2024 08:33:53.344 [main] INFO  o.s.b.w.e.t.TomcatWebServer - Tomcat initialized with port 8080 (http)
-14.04.2024 08:33:53.354 [main] INFO  o.a.c.h.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
-14.04.2024 08:33:53.355 [main] INFO  o.a.c.c.StandardService - Starting service [Tomcat]
-14.04.2024 08:33:53.355 [main] INFO  o.a.c.c.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.19]
-14.04.2024 08:33:53.389 [main] INFO  o.a.c.c.C.[.[.[/] - Initializing Spring embedded WebApplicationContext
-14.04.2024 08:33:53.390 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 599 ms
-14.04.2024 08:33:53.539 [main] INFO  o.s.b.a.w.s.WelcomePageHandlerMapping - Adding welcome page: class path resource [static/index.html]
-14.04.2024 08:33:53.752 [main] INFO  o.a.c.h.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
-14.04.2024 08:33:53.765 [main] INFO  o.s.b.w.e.t.TomcatWebServer - Tomcat started on port 8080 (http) with context path ''
-14.04.2024 08:33:53.771 [main] INFO  r.f.i.p.PpkConverterGeojsonApplication - Started PpkConverterGeojsonApplication in 1.229 seconds (process running for 1.614)
-14.04.2024 08:33:57.871 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[.[.[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
-14.04.2024 08:33:57.871 [http-nio-8080-exec-1] INFO  o.s.w.s.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
-14.04.2024 08:33:57.872 [http-nio-8080-exec-1] INFO  o.s.w.s.DispatcherServlet - Completed initialization in 1 ms
-14.04.2024 08:33:57.928 [http-nio-8080-exec-2] WARN  r.f.i.p.c.CommonExceptionHandler - No static resource favicon.ico.
-14.04.2024 08:34:01.013 [http-nio-8080-exec-4] INFO  r.f.i.p.s.PpkConverterServiceImpl - start converting convertToGeojson
-14.04.2024 08:34:01.166 [http-nio-8080-exec-4] INFO  r.f.i.p.s.PpkConverterServiceImpl - end converting convertToGeojson
-14.04.2024 08:34:01.208 [http-nio-8080-exec-3] WARN  r.f.i.p.c.CommonExceptionHandler - No static resource favicon.ico.
-14.04.2024 08:34:17.813 [main] INFO  r.f.i.p.PpkConverterGeojsonApplication - Starting PpkConverterGeojsonApplication using Java 17.0.9 with PID 3080 (C:\Users\Denis\IdeaProjects\ppk-converter-geojson\target\classes started by Denis in C:\Users\Denis\IdeaProjects\ppk-converter-geojson)
-14.04.2024 08:34:17.815 [main] INFO  r.f.i.p.PpkConverterGeojsonApplication - No active profile set, falling back to 1 default profile: "default"
-14.04.2024 08:34:18.435 [main] INFO  o.s.b.w.e.t.TomcatWebServer - Tomcat initialized with port 8080 (http)
-14.04.2024 08:34:18.445 [main] INFO  o.a.c.h.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
-14.04.2024 08:34:18.446 [main] INFO  o.a.c.c.StandardService - Starting service [Tomcat]
-14.04.2024 08:34:18.447 [main] INFO  o.a.c.c.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.19]
-14.04.2024 08:34:18.482 [main] INFO  o.a.c.c.C.[.[.[/] - Initializing Spring embedded WebApplicationContext
-14.04.2024 08:34:18.483 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 641 ms
-14.04.2024 08:34:18.637 [main] INFO  o.s.b.a.w.s.WelcomePageHandlerMapping - Adding welcome page: class path resource [static/index.html]
-14.04.2024 08:34:18.864 [main] INFO  o.a.c.h.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
-14.04.2024 08:34:18.875 [main] INFO  o.s.b.w.e.t.TomcatWebServer - Tomcat started on port 8080 (http) with context path ''
-14.04.2024 08:34:18.881 [main] INFO  r.f.i.p.PpkConverterGeojsonApplication - Started PpkConverterGeojsonApplication in 1.326 seconds (process running for 2.177)
-14.04.2024 08:34:22.832 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[.[.[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
-14.04.2024 08:34:22.833 [http-nio-8080-exec-1] INFO  o.s.w.s.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
-14.04.2024 08:34:22.833 [http-nio-8080-exec-1] INFO  o.s.w.s.DispatcherServlet - Completed initialization in 0 ms
-14.04.2024 08:34:22.860 [http-nio-8080-exec-1] WARN  r.f.i.p.c.CommonExceptionHandler - No static resource favicon.ico.
-14.04.2024 08:34:47.803 [http-nio-8080-exec-2] INFO  r.f.i.p.s.PpkConverterServiceImpl - start converting convertToGeojson
-14.04.2024 08:34:47.862 [http-nio-8080-exec-2] INFO  r.f.i.p.s.PpkConverterServiceImpl - end converting convertToGeojson
-14.04.2024 08:34:47.874 [http-nio-8080-exec-2] WARN  r.f.i.p.c.CommonExceptionHandler - ServletOutputStream failed to flush: java.nio.channels.ClosedChannelException
-14.04.2024 08:34:47.874 [http-nio-8080-exec-2] WARN  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Failure in @ExceptionHandler ru.fors.itconsalting.ppkconvertergeojson.controller.CommonExceptionHandler#badRequestExceptionHandler(Exception)
-org.springframework.http.converter.HttpMessageNotWritableException: No converter for [class org.springframework.web.DefaultErrorResponseBuilder$SimpleErrorResponse] with preset Content-Type 'text/html'
-	at org.springframework.web.servlet.mvc.method.annotation.AbstractMessageConverterMethodProcessor.writeWithMessageConverters(AbstractMessageConverterMethodProcessor.java:319)
-	at org.springframework.web.servlet.mvc.method.annotation.HttpEntityMethodProcessor.handleReturnValue(HttpEntityMethodProcessor.java:245)
-	at org.springframework.web.method.support.HandlerMethodReturnValueHandlerComposite.handleReturnValue(HandlerMethodReturnValueHandlerComposite.java:78)
-	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:136)
-	at org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver.doResolveHandlerMethodException(ExceptionHandlerExceptionResolver.java:432)
-	at org.springframework.web.servlet.handler.AbstractHandlerMethodExceptionResolver.doResolveException(AbstractHandlerMethodExceptionResolver.java:74)
-	at org.springframework.web.servlet.handler.AbstractHandlerExceptionResolver.resolveException(AbstractHandlerExceptionResolver.java:175)
-	at org.springframework.web.servlet.handler.HandlerExceptionResolverComposite.resolveException(HandlerExceptionResolverComposite.java:80)
-	at org.springframework.web.servlet.DispatcherServlet.processHandlerException(DispatcherServlet.java:1357)
-	at org.springframework.web.servlet.DispatcherServlet.processDispatchResult(DispatcherServlet.java:1160)
-	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1106)
-	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:979)
-	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014)
-	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:914)
-	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:590)
-	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885)
-	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658)
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:205)
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
-	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
-	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
-	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
-	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
-	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
-	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
-	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
-	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167)
-	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
-	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:482)
-	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115)
-	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
-	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
-	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:344)
-	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:391)
-	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
-	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:896)
-	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1744)
-	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
-	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
-	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
-	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
-	at java.base/java.lang.Thread.run(Thread.java:840)
-14.04.2024 08:34:47.878 [http-nio-8080-exec-2] WARN  o.s.w.s.m.s.DefaultHandlerExceptionResolver - Resolved [org.springframework.web.context.request.async.AsyncRequestNotUsableException: ServletOutputStream failed to flush: java.nio.channels.ClosedChannelException]
-14.04.2024 08:34:51.079 [main] INFO  r.f.i.p.PpkConverterGeojsonApplication - Starting PpkConverterGeojsonApplication using Java 17.0.9 with PID 3500 (C:\Users\Denis\IdeaProjects\ppk-converter-geojson\target\classes started by Denis in C:\Users\Denis\IdeaProjects\ppk-converter-geojson)
-14.04.2024 08:34:51.081 [main] INFO  r.f.i.p.PpkConverterGeojsonApplication - No active profile set, falling back to 1 default profile: "default"
-14.04.2024 08:34:51.747 [main] INFO  o.s.b.w.e.t.TomcatWebServer - Tomcat initialized with port 8080 (http)
-14.04.2024 08:34:51.754 [main] INFO  o.a.c.h.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
-14.04.2024 08:34:51.755 [main] INFO  o.a.c.c.StandardService - Starting service [Tomcat]
-14.04.2024 08:34:51.755 [main] INFO  o.a.c.c.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.19]
-14.04.2024 08:34:51.795 [main] INFO  o.a.c.c.C.[.[.[/] - Initializing Spring embedded WebApplicationContext
-14.04.2024 08:34:51.795 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 687 ms
-14.04.2024 08:34:51.967 [main] INFO  o.s.b.a.w.s.WelcomePageHandlerMapping - Adding welcome page: class path resource [static/index.html]
-14.04.2024 08:34:52.179 [main] INFO  o.a.c.h.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
-14.04.2024 08:34:52.191 [main] INFO  o.s.b.w.e.t.TomcatWebServer - Tomcat started on port 8080 (http) with context path ''
-14.04.2024 08:34:52.198 [main] INFO  r.f.i.p.PpkConverterGeojsonApplication - Started PpkConverterGeojsonApplication in 1.377 seconds (process running for 1.921)
-14.04.2024 08:34:59.306 [main] INFO  r.f.i.p.PpkConverterGeojsonApplication - Starting PpkConverterGeojsonApplication using Java 17.0.9 with PID 11008 (C:\Users\Denis\IdeaProjects\ppk-converter-geojson\target\classes started by Denis in C:\Users\Denis\IdeaProjects\ppk-converter-geojson)
-14.04.2024 08:34:59.308 [main] INFO  r.f.i.p.PpkConverterGeojsonApplication - No active profile set, falling back to 1 default profile: "default"
-14.04.2024 08:34:59.899 [main] INFO  o.s.b.w.e.t.TomcatWebServer - Tomcat initialized with port 8080 (http)
-14.04.2024 08:34:59.906 [main] INFO  o.a.c.h.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
-14.04.2024 08:34:59.907 [main] INFO  o.a.c.c.StandardService - Starting service [Tomcat]
-14.04.2024 08:34:59.907 [main] INFO  o.a.c.c.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.19]
-14.04.2024 08:34:59.938 [main] INFO  o.a.c.c.C.[.[.[/] - Initializing Spring embedded WebApplicationContext
-14.04.2024 08:34:59.940 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 604 ms
-14.04.2024 08:35:00.080 [main] INFO  o.s.b.a.w.s.WelcomePageHandlerMapping - Adding welcome page: class path resource [static/index.html]
-14.04.2024 08:35:00.280 [main] INFO  o.a.c.h.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
-14.04.2024 08:35:00.291 [main] INFO  o.s.b.w.e.t.TomcatWebServer - Tomcat started on port 8080 (http) with context path ''
-14.04.2024 08:35:00.297 [main] INFO  r.f.i.p.PpkConverterGeojsonApplication - Started PpkConverterGeojsonApplication in 1.225 seconds (process running for 1.653)
-14.04.2024 08:35:19.652 [main] INFO  r.f.i.p.PpkConverterGeojsonApplication - Starting PpkConverterGeojsonApplication using Java 17.0.9 with PID 16556 (C:\Users\Denis\IdeaProjects\ppk-converter-geojson\target\classes started by Denis in C:\Users\Denis\IdeaProjects\ppk-converter-geojson)
-14.04.2024 08:35:19.654 [main] INFO  r.f.i.p.PpkConverterGeojsonApplication - No active profile set, falling back to 1 default profile: "default"
-14.04.2024 08:35:20.258 [main] INFO  o.s.b.w.e.t.TomcatWebServer - Tomcat initialized with port 8080 (http)
-14.04.2024 08:35:20.265 [main] INFO  o.a.c.h.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
-14.04.2024 08:35:20.266 [main] INFO  o.a.c.c.StandardService - Starting service [Tomcat]
-14.04.2024 08:35:20.266 [main] INFO  o.a.c.c.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.19]
-14.04.2024 08:35:20.303 [main] INFO  o.a.c.c.C.[.[.[/] - Initializing Spring embedded WebApplicationContext
-14.04.2024 08:35:20.303 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 616 ms
-14.04.2024 08:35:20.455 [main] INFO  o.s.b.a.w.s.WelcomePageHandlerMapping - Adding welcome page: class path resource [static/index.html]
-14.04.2024 08:35:20.652 [main] INFO  o.a.c.h.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
-14.04.2024 08:35:20.665 [main] INFO  o.s.b.w.e.t.TomcatWebServer - Tomcat started on port 8080 (http) with context path ''
-14.04.2024 08:35:20.670 [main] INFO  r.f.i.p.PpkConverterGeojsonApplication - Started PpkConverterGeojsonApplication in 1.259 seconds (process running for 1.676)
-14.04.2024 08:35:23.710 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[.[.[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
-14.04.2024 08:35:23.711 [http-nio-8080-exec-1] INFO  o.s.w.s.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
-14.04.2024 08:35:23.712 [http-nio-8080-exec-1] INFO  o.s.w.s.DispatcherServlet - Completed initialization in 0 ms
-14.04.2024 08:35:37.687 [main] INFO  r.f.i.p.PpkConverterGeojsonApplication - Starting PpkConverterGeojsonApplication using Java 17.0.9 with PID 15520 (C:\Users\Denis\IdeaProjects\ppk-converter-geojson\target\classes started by Denis in C:\Users\Denis\IdeaProjects\ppk-converter-geojson)
-14.04.2024 08:35:37.689 [main] INFO  r.f.i.p.PpkConverterGeojsonApplication - No active profile set, falling back to 1 default profile: "default"
-14.04.2024 08:35:38.261 [main] INFO  o.s.b.w.e.t.TomcatWebServer - Tomcat initialized with port 8080 (http)
-14.04.2024 08:35:38.267 [main] INFO  o.a.c.h.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
-14.04.2024 08:35:38.268 [main] INFO  o.a.c.c.StandardService - Starting service [Tomcat]
-14.04.2024 08:35:38.269 [main] INFO  o.a.c.c.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.19]
-14.04.2024 08:35:38.311 [main] INFO  o.a.c.c.C.[.[.[/] - Initializing Spring embedded WebApplicationContext
-14.04.2024 08:35:38.312 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 594 ms
-14.04.2024 08:35:38.451 [main] INFO  o.s.b.a.w.s.WelcomePageHandlerMapping - Adding welcome page: class path resource [static/index.html]
-14.04.2024 08:35:38.663 [main] INFO  o.a.c.h.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
-14.04.2024 08:35:38.674 [main] INFO  o.s.b.w.e.t.TomcatWebServer - Tomcat started on port 8080 (http) with context path ''
-14.04.2024 08:35:38.681 [main] INFO  r.f.i.p.PpkConverterGeojsonApplication - Started PpkConverterGeojsonApplication in 1.219 seconds (process running for 1.656)
-14.04.2024 08:35:38.735 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[.[.[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
-14.04.2024 08:35:38.736 [http-nio-8080-exec-1] INFO  o.s.w.s.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
-14.04.2024 08:35:38.737 [http-nio-8080-exec-1] INFO  o.s.w.s.DispatcherServlet - Completed initialization in 1 ms
-14.04.2024 08:35:38.754 [http-nio-8080-exec-1] WARN  r.f.i.p.c.CommonExceptionHandler - No static resource favicon.ico.
-14.04.2024 08:36:08.924 [http-nio-8080-exec-4] WARN  r.f.i.p.c.CommonExceptionHandler - No static resource favicon.ico.
-14.04.2024 08:36:11.077 [http-nio-8080-exec-9] WARN  r.f.i.p.c.CommonExceptionHandler - No static resource favicon.ico.
-14.04.2024 08:36:14.521 [http-nio-8080-exec-8] INFO  r.f.i.p.s.PpkConverterServiceImpl - start converting convertToGeojson
-14.04.2024 08:36:14.659 [http-nio-8080-exec-8] INFO  r.f.i.p.s.PpkConverterServiceImpl - end converting convertToGeojson
-14.04.2024 08:39:39.900 [main] INFO  r.f.i.p.PpkConverterGeojsonApplication - Starting PpkConverterGeojsonApplication using Java 17.0.9 with PID 4448 (C:\Users\Denis\IdeaProjects\ppk-converter-geojson\target\classes started by Denis in C:\Users\Denis\IdeaProjects\ppk-converter-geojson)
-14.04.2024 08:39:39.901 [main] INFO  r.f.i.p.PpkConverterGeojsonApplication - No active profile set, falling back to 1 default profile: "default"
-14.04.2024 08:39:40.482 [main] INFO  o.s.b.w.e.t.TomcatWebServer - Tomcat initialized with port 8080 (http)
-14.04.2024 08:39:40.492 [main] INFO  o.a.c.h.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
-14.04.2024 08:39:40.493 [main] INFO  o.a.c.c.StandardService - Starting service [Tomcat]
-14.04.2024 08:39:40.493 [main] INFO  o.a.c.c.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.19]
-14.04.2024 08:39:40.529 [main] INFO  o.a.c.c.C.[.[.[/] - Initializing Spring embedded WebApplicationContext
-14.04.2024 08:39:40.530 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 601 ms
-14.04.2024 08:39:40.656 [main] INFO  o.s.b.a.w.s.WelcomePageHandlerMapping - Adding welcome page: class path resource [static/index.html]
-14.04.2024 08:39:40.856 [main] INFO  o.a.c.h.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
-14.04.2024 08:39:40.867 [main] INFO  o.s.b.w.e.t.TomcatWebServer - Tomcat started on port 8080 (http) with context path ''
-14.04.2024 08:39:40.873 [main] INFO  r.f.i.p.PpkConverterGeojsonApplication - Started PpkConverterGeojsonApplication in 1.202 seconds (process running for 1.64)
-14.04.2024 08:39:45.300 [http-nio-8080-exec-2] INFO  o.a.c.c.C.[.[.[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
-14.04.2024 08:39:45.301 [http-nio-8080-exec-2] INFO  o.s.w.s.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
-14.04.2024 08:39:45.301 [http-nio-8080-exec-2] INFO  o.s.w.s.DispatcherServlet - Completed initialization in 0 ms
-14.04.2024 08:39:46.151 [http-nio-8080-exec-5] WARN  r.f.i.p.c.CommonExceptionHandler - No static resource favicon.ico.
-14.04.2024 08:39:48.746 [http-nio-8080-exec-9] INFO  r.f.i.p.s.PpkConverterServiceImpl - start converting convertToGeojson
-14.04.2024 08:39:48.877 [http-nio-8080-exec-9] INFO  r.f.i.p.s.PpkConverterServiceImpl - end converting convertToGeojson
-14.04.2024 09:07:28.684 [main] INFO  r.f.i.p.PpkConverterGeojsonApplication - Starting PpkConverterGeojsonApplication using Java 17.0.9 with PID 15728 (C:\Users\Denis\IdeaProjects\ppk-converter-geojson\target\classes started by Denis in C:\Users\Denis\IdeaProjects\ppk-converter-geojson)
-14.04.2024 09:07:28.685 [main] INFO  r.f.i.p.PpkConverterGeojsonApplication - No active profile set, falling back to 1 default profile: "default"
-14.04.2024 09:07:29.274 [main] INFO  o.s.b.w.e.t.TomcatWebServer - Tomcat initialized with port 8080 (http)
-14.04.2024 09:07:29.282 [main] INFO  o.a.c.h.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
-14.04.2024 09:07:29.284 [main] INFO  o.a.c.c.StandardService - Starting service [Tomcat]
-14.04.2024 09:07:29.285 [main] INFO  o.a.c.c.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.19]
-14.04.2024 09:07:29.326 [main] INFO  o.a.c.c.C.[.[.[/] - Initializing Spring embedded WebApplicationContext
-14.04.2024 09:07:29.326 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 616 ms
-14.04.2024 09:07:29.494 [main] INFO  o.s.b.a.w.s.WelcomePageHandlerMapping - Adding welcome page: class path resource [static/index.html]
-14.04.2024 09:07:29.764 [main] INFO  o.a.c.h.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
-14.04.2024 09:07:29.777 [main] INFO  o.s.b.w.e.t.TomcatWebServer - Tomcat started on port 8080 (http) with context path ''
-14.04.2024 09:07:29.785 [main] INFO  r.f.i.p.PpkConverterGeojsonApplication - Started PpkConverterGeojsonApplication in 1.314 seconds (process running for 1.716)
-14.04.2024 09:07:35.307 [http-nio-8080-exec-2] INFO  o.a.c.c.C.[.[.[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
-14.04.2024 09:07:35.307 [http-nio-8080-exec-2] INFO  o.s.w.s.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
-14.04.2024 09:07:35.309 [http-nio-8080-exec-2] INFO  o.s.w.s.DispatcherServlet - Completed initialization in 2 ms
-14.04.2024 09:07:36.166 [http-nio-8080-exec-4] WARN  r.f.i.p.c.CommonExceptionHandler - No static resource favicon.ico.
-14.04.2024 09:07:39.765 [http-nio-8080-exec-5] WARN  r.f.i.p.c.CommonExceptionHandler - No primary or single unique constructor found for interface javax.servlet.http.HttpServletResponse
-14.04.2024 09:07:39.850 [http-nio-8080-exec-6] WARN  r.f.i.p.c.CommonExceptionHandler - No static resource favicon.ico.
-14.04.2024 09:08:17.215 [main] INFO  r.f.i.p.PpkConverterGeojsonApplication - Starting PpkConverterGeojsonApplication using Java 17.0.9 with PID 3032 (C:\Users\Denis\IdeaProjects\ppk-converter-geojson\target\classes started by Denis in C:\Users\Denis\IdeaProjects\ppk-converter-geojson)
-14.04.2024 09:08:17.217 [main] INFO  r.f.i.p.PpkConverterGeojsonApplication - No active profile set, falling back to 1 default profile: "default"
-14.04.2024 09:08:17.818 [main] INFO  o.s.b.w.e.t.TomcatWebServer - Tomcat initialized with port 8080 (http)
-14.04.2024 09:08:17.824 [main] INFO  o.a.c.h.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
-14.04.2024 09:08:17.825 [main] INFO  o.a.c.c.StandardService - Starting service [Tomcat]
-14.04.2024 09:08:17.825 [main] INFO  o.a.c.c.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.19]
-14.04.2024 09:08:17.860 [main] INFO  o.a.c.c.C.[.[.[/] - Initializing Spring embedded WebApplicationContext
-14.04.2024 09:08:17.860 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 616 ms
-14.04.2024 09:08:18.005 [main] INFO  o.s.b.a.w.s.WelcomePageHandlerMapping - Adding welcome page: class path resource [static/index.html]
-14.04.2024 09:08:18.211 [main] INFO  o.a.c.h.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
-14.04.2024 09:08:18.223 [main] INFO  o.s.b.w.e.t.TomcatWebServer - Tomcat started on port 8080 (http) with context path ''
-14.04.2024 09:08:18.229 [main] INFO  r.f.i.p.PpkConverterGeojsonApplication - Started PpkConverterGeojsonApplication in 1.251 seconds (process running for 1.672)
-14.04.2024 09:08:21.812 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[.[.[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
-14.04.2024 09:08:21.813 [http-nio-8080-exec-1] INFO  o.s.w.s.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
-14.04.2024 09:08:21.813 [http-nio-8080-exec-1] INFO  o.s.w.s.DispatcherServlet - Completed initialization in 0 ms
-14.04.2024 09:08:21.829 [http-nio-8080-exec-1] WARN  r.f.i.p.c.CommonExceptionHandler - No static resource favicon.ico.
-14.04.2024 09:08:24.752 [http-nio-8080-exec-4] INFO  r.f.i.p.s.PpkConverterServiceImpl - start converting convertToGeojson
-14.04.2024 09:08:24.883 [http-nio-8080-exec-4] INFO  r.f.i.p.s.PpkConverterServiceImpl - end converting convertToGeojson
-14.04.2024 09:09:05.058 [main] INFO  r.f.i.p.PpkConverterGeojsonApplication - Starting PpkConverterGeojsonApplication using Java 17.0.9 with PID 10616 (C:\Users\Denis\IdeaProjects\ppk-converter-geojson\target\classes started by Denis in C:\Users\Denis\IdeaProjects\ppk-converter-geojson)
-14.04.2024 09:09:05.059 [main] INFO  r.f.i.p.PpkConverterGeojsonApplication - No active profile set, falling back to 1 default profile: "default"
-14.04.2024 09:09:05.619 [main] INFO  o.s.b.w.e.t.TomcatWebServer - Tomcat initialized with port 8080 (http)
-14.04.2024 09:09:05.625 [main] INFO  o.a.c.h.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
-14.04.2024 09:09:05.625 [main] INFO  o.a.c.c.StandardService - Starting service [Tomcat]
-14.04.2024 09:09:05.626 [main] INFO  o.a.c.c.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.19]
-14.04.2024 09:09:05.657 [main] INFO  o.a.c.c.C.[.[.[/] - Initializing Spring embedded WebApplicationContext
-14.04.2024 09:09:05.657 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 573 ms
-14.04.2024 09:09:05.792 [main] INFO  o.s.b.a.w.s.WelcomePageHandlerMapping - Adding welcome page: class path resource [static/index.html]
-14.04.2024 09:09:05.970 [main] INFO  o.a.c.h.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
-14.04.2024 09:09:05.979 [main] INFO  o.s.b.w.e.t.TomcatWebServer - Tomcat started on port 8080 (http) with context path ''
-14.04.2024 09:09:05.985 [main] INFO  r.f.i.p.PpkConverterGeojsonApplication - Started PpkConverterGeojsonApplication in 1.153 seconds (process running for 1.578)
-14.04.2024 09:09:09.745 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[.[.[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
-14.04.2024 09:09:09.745 [http-nio-8080-exec-1] INFO  o.s.w.s.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
-14.04.2024 09:09:09.746 [http-nio-8080-exec-1] INFO  o.s.w.s.DispatcherServlet - Completed initialization in 1 ms
-14.04.2024 09:09:09.764 [http-nio-8080-exec-1] WARN  r.f.i.p.c.CommonExceptionHandler - No static resource favicon.ico.
-14.04.2024 09:09:13.442 [http-nio-8080-exec-6] INFO  r.f.i.p.s.PpkConverterServiceImpl - start converting convertToGeojson
-14.04.2024 09:09:13.574 [http-nio-8080-exec-6] INFO  r.f.i.p.s.PpkConverterServiceImpl - end converting convertToGeojson
-14.04.2024 09:13:34.191 [main] INFO  r.f.i.p.PpkConverterGeojsonApplication - Starting PpkConverterGeojsonApplication using Java 17.0.9 with PID 1484 (C:\Users\Denis\IdeaProjects\ppk-converter-geojson\target\classes started by Denis in C:\Users\Denis\IdeaProjects\ppk-converter-geojson)
-14.04.2024 09:13:34.192 [main] INFO  r.f.i.p.PpkConverterGeojsonApplication - No active profile set, falling back to 1 default profile: "default"
-14.04.2024 09:13:34.768 [main] INFO  o.s.b.w.e.t.TomcatWebServer - Tomcat initialized with port 8080 (http)
-14.04.2024 09:13:34.774 [main] INFO  o.a.c.h.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
-14.04.2024 09:13:34.775 [main] INFO  o.a.c.c.StandardService - Starting service [Tomcat]
-14.04.2024 09:13:34.776 [main] INFO  o.a.c.c.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.19]
-14.04.2024 09:13:34.810 [main] INFO  o.a.c.c.C.[.[.[/] - Initializing Spring embedded WebApplicationContext
-14.04.2024 09:13:34.811 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 594 ms
-14.04.2024 09:13:34.959 [main] INFO  o.s.b.a.w.s.WelcomePageHandlerMapping - Adding welcome page: class path resource [static/index.html]
-14.04.2024 09:13:35.156 [main] INFO  o.a.c.h.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
-14.04.2024 09:13:35.168 [main] INFO  o.s.b.w.e.t.TomcatWebServer - Tomcat started on port 8080 (http) with context path ''
-14.04.2024 09:13:35.176 [main] INFO  r.f.i.p.PpkConverterGeojsonApplication - Started PpkConverterGeojsonApplication in 1.205 seconds (process running for 1.6)
-14.04.2024 09:13:38.342 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[.[.[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
-14.04.2024 09:13:38.343 [http-nio-8080-exec-1] INFO  o.s.w.s.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
-14.04.2024 09:13:38.344 [http-nio-8080-exec-1] INFO  o.s.w.s.DispatcherServlet - Completed initialization in 1 ms
-14.04.2024 09:13:39.261 [http-nio-8080-exec-2] WARN  r.f.i.p.c.CommonExceptionHandler - No static resource favicon.ico.
-14.04.2024 09:13:42.469 [http-nio-8080-exec-3] INFO  r.f.i.p.s.PpkConverterServiceImpl - start converting convertToGeojson
-14.04.2024 09:13:42.597 [http-nio-8080-exec-3] INFO  r.f.i.p.s.PpkConverterServiceImpl - end converting convertToGeojson
-14.04.2024 09:14:14.305 [main] INFO  r.f.i.p.PpkConverterGeojsonApplication - Starting PpkConverterGeojsonApplication using Java 17.0.9 with PID 18048 (C:\Users\Denis\IdeaProjects\ppk-converter-geojson\target\classes started by Denis in C:\Users\Denis\IdeaProjects\ppk-converter-geojson)
-14.04.2024 09:14:14.306 [main] INFO  r.f.i.p.PpkConverterGeojsonApplication - No active profile set, falling back to 1 default profile: "default"
-14.04.2024 09:14:14.950 [main] INFO  o.s.b.w.e.t.TomcatWebServer - Tomcat initialized with port 8080 (http)
-14.04.2024 09:14:14.957 [main] INFO  o.a.c.h.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
-14.04.2024 09:14:14.958 [main] INFO  o.a.c.c.StandardService - Starting service [Tomcat]
-14.04.2024 09:14:14.958 [main] INFO  o.a.c.c.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.19]
-14.04.2024 09:14:14.993 [main] INFO  o.a.c.c.C.[.[.[/] - Initializing Spring embedded WebApplicationContext
-14.04.2024 09:14:14.994 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 661 ms
-14.04.2024 09:14:15.135 [main] INFO  o.s.b.a.w.s.WelcomePageHandlerMapping - Adding welcome page: class path resource [static/index.html]
-14.04.2024 09:14:15.354 [main] INFO  o.a.c.h.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
-14.04.2024 09:14:15.366 [main] INFO  o.s.b.w.e.t.TomcatWebServer - Tomcat started on port 8080 (http) with context path ''
-14.04.2024 09:14:15.373 [main] INFO  r.f.i.p.PpkConverterGeojsonApplication - Started PpkConverterGeojsonApplication in 1.321 seconds (process running for 1.859)
-14.04.2024 09:14:21.997 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[.[.[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
-14.04.2024 09:14:21.997 [http-nio-8080-exec-1] INFO  o.s.w.s.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
-14.04.2024 09:14:21.998 [http-nio-8080-exec-1] INFO  o.s.w.s.DispatcherServlet - Completed initialization in 0 ms
-14.04.2024 09:14:22.041 [http-nio-8080-exec-1] INFO  r.f.i.p.s.PpkConverterServiceImpl - start converting convertToGeojson
-14.04.2024 09:14:22.128 [http-nio-8080-exec-1] INFO  r.f.i.p.s.PpkConverterServiceImpl - end converting convertToGeojson
-14.04.2024 09:14:41.857 [main] INFO  r.f.i.p.PpkConverterGeojsonApplication - Starting PpkConverterGeojsonApplication using Java 17.0.9 with PID 4880 (C:\Users\Denis\IdeaProjects\ppk-converter-geojson\target\classes started by Denis in C:\Users\Denis\IdeaProjects\ppk-converter-geojson)
-14.04.2024 09:14:41.858 [main] INFO  r.f.i.p.PpkConverterGeojsonApplication - No active profile set, falling back to 1 default profile: "default"
-14.04.2024 09:14:54.721 [main] INFO  r.f.i.p.PpkConverterGeojsonApplication - Starting PpkConverterGeojsonApplication using Java 17.0.9 with PID 15896 (C:\Users\Denis\IdeaProjects\ppk-converter-geojson\target\classes started by Denis in C:\Users\Denis\IdeaProjects\ppk-converter-geojson)
-14.04.2024 09:14:54.722 [main] INFO  r.f.i.p.PpkConverterGeojsonApplication - No active profile set, falling back to 1 default profile: "default"
-14.04.2024 09:14:57.216 [main] INFO  r.f.i.p.PpkConverterGeojsonApplication - Starting PpkConverterGeojsonApplication using Java 17.0.9 with PID 14420 (C:\Users\Denis\IdeaProjects\ppk-converter-geojson\target\classes started by Denis in C:\Users\Denis\IdeaProjects\ppk-converter-geojson)
-14.04.2024 09:14:57.217 [main] INFO  r.f.i.p.PpkConverterGeojsonApplication - No active profile set, falling back to 1 default profile: "default"
-14.04.2024 09:14:57.842 [main] INFO  o.s.b.w.e.t.TomcatWebServer - Tomcat initialized with port 8080 (http)
-14.04.2024 09:14:57.849 [main] INFO  o.a.c.h.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
-14.04.2024 09:14:57.851 [main] INFO  o.a.c.c.StandardService - Starting service [Tomcat]
-14.04.2024 09:14:57.851 [main] INFO  o.a.c.c.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.19]
-14.04.2024 09:14:57.895 [main] INFO  o.a.c.c.C.[.[.[/] - Initializing Spring embedded WebApplicationContext
-14.04.2024 09:14:57.896 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 653 ms
-14.04.2024 09:14:58.060 [main] INFO  o.s.b.a.w.s.WelcomePageHandlerMapping - Adding welcome page: class path resource [static/index.html]
-14.04.2024 09:14:58.299 [main] INFO  o.a.c.h.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
-14.04.2024 09:14:58.312 [main] INFO  o.s.b.w.e.t.TomcatWebServer - Tomcat started on port 8080 (http) with context path ''
-14.04.2024 09:14:58.319 [main] INFO  r.f.i.p.PpkConverterGeojsonApplication - Started PpkConverterGeojsonApplication in 1.344 seconds (process running for 1.827)
-14.04.2024 09:15:03.292 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[.[.[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
-14.04.2024 09:15:03.293 [http-nio-8080-exec-1] INFO  o.s.w.s.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
-14.04.2024 09:15:03.293 [http-nio-8080-exec-1] INFO  o.s.w.s.DispatcherServlet - Completed initialization in 0 ms
-14.04.2024 09:15:03.333 [http-nio-8080-exec-1] INFO  r.f.i.p.s.PpkConverterServiceImpl - start converting convertToGeojson
-14.04.2024 09:15:03.412 [http-nio-8080-exec-1] INFO  r.f.i.p.s.PpkConverterServiceImpl - end converting convertToGeojson
-14.04.2024 09:15:50.743 [main] INFO  r.f.i.p.PpkConverterGeojsonApplication - Starting PpkConverterGeojsonApplication using Java 17.0.9 with PID 15264 (C:\Users\Denis\IdeaProjects\ppk-converter-geojson\target\classes started by Denis in C:\Users\Denis\IdeaProjects\ppk-converter-geojson)
-14.04.2024 09:15:50.744 [main] INFO  r.f.i.p.PpkConverterGeojsonApplication - No active profile set, falling back to 1 default profile: "default"
-14.04.2024 09:15:51.419 [main] INFO  o.s.b.w.e.t.TomcatWebServer - Tomcat initialized with port 8080 (http)
-14.04.2024 09:15:51.426 [main] INFO  o.a.c.h.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
-14.04.2024 09:15:51.427 [main] INFO  o.a.c.c.StandardService - Starting service [Tomcat]
-14.04.2024 09:15:51.428 [main] INFO  o.a.c.c.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.19]
-14.04.2024 09:15:51.473 [main] INFO  o.a.c.c.C.[.[.[/] - Initializing Spring embedded WebApplicationContext
-14.04.2024 09:15:51.474 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 702 ms
-14.04.2024 09:15:51.621 [main] INFO  o.s.b.a.w.s.WelcomePageHandlerMapping - Adding welcome page: class path resource [static/index.html]
-14.04.2024 09:15:51.824 [main] INFO  o.a.c.h.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
-14.04.2024 09:15:51.836 [main] INFO  o.s.b.w.e.t.TomcatWebServer - Tomcat started on port 8080 (http) with context path ''
-14.04.2024 09:15:51.843 [main] INFO  r.f.i.p.PpkConverterGeojsonApplication - Started PpkConverterGeojsonApplication in 1.362 seconds (process running for 1.897)
-14.04.2024 09:16:03.169 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[.[.[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
-14.04.2024 09:16:03.169 [http-nio-8080-exec-1] INFO  o.s.w.s.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
-14.04.2024 09:16:03.170 [http-nio-8080-exec-1] INFO  o.s.w.s.DispatcherServlet - Completed initialization in 1 ms
-14.04.2024 09:16:03.296 [http-nio-8080-exec-1] INFO  r.f.i.p.s.PpkConverterServiceImpl - start converting convertToGeojson
-14.04.2024 09:16:03.571 [http-nio-8080-exec-1] INFO  r.f.i.p.s.PpkConverterServiceImpl - end converting convertToGeojson
-14.04.2024 09:16:49.514 [main] INFO  r.f.i.p.PpkConverterGeojsonApplication - Starting PpkConverterGeojsonApplication using Java 17.0.9 with PID 15688 (C:\Users\Denis\IdeaProjects\ppk-converter-geojson\target\classes started by Denis in C:\Users\Denis\IdeaProjects\ppk-converter-geojson)
-14.04.2024 09:16:49.516 [main] INFO  r.f.i.p.PpkConverterGeojsonApplication - No active profile set, falling back to 1 default profile: "default"
-14.04.2024 09:16:50.150 [main] INFO  o.s.b.w.e.t.TomcatWebServer - Tomcat initialized with port 8080 (http)
-14.04.2024 09:16:50.157 [main] INFO  o.a.c.h.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
-14.04.2024 09:16:50.158 [main] INFO  o.a.c.c.StandardService - Starting service [Tomcat]
-14.04.2024 09:16:50.158 [main] INFO  o.a.c.c.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.19]
-14.04.2024 09:16:50.199 [main] INFO  o.a.c.c.C.[.[.[/] - Initializing Spring embedded WebApplicationContext
-14.04.2024 09:16:50.199 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 658 ms
-14.04.2024 09:16:50.345 [main] INFO  o.s.b.a.w.s.WelcomePageHandlerMapping - Adding welcome page: class path resource [static/index.html]
-14.04.2024 09:16:50.552 [main] INFO  o.a.c.h.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
-14.04.2024 09:16:50.563 [main] INFO  o.s.b.w.e.t.TomcatWebServer - Tomcat started on port 8080 (http) with context path ''
-14.04.2024 09:16:50.570 [main] INFO  r.f.i.p.PpkConverterGeojsonApplication - Started PpkConverterGeojsonApplication in 1.323 seconds (process running for 1.846)
-14.04.2024 09:16:59.830 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[.[.[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
-14.04.2024 09:16:59.830 [http-nio-8080-exec-1] INFO  o.s.w.s.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
-14.04.2024 09:16:59.832 [http-nio-8080-exec-1] INFO  o.s.w.s.DispatcherServlet - Completed initialization in 1 ms
-14.04.2024 09:16:59.907 [http-nio-8080-exec-1] WARN  r.f.i.p.c.CommonExceptionHandler - No static resource upload.
-14.04.2024 09:17:00.112 [http-nio-8080-exec-2] WARN  r.f.i.p.c.CommonExceptionHandler - No static resource favicon.ico.
-14.04.2024 09:19:24.122 [main] INFO  r.f.i.p.PpkConverterGeojsonApplication - Starting PpkConverterGeojsonApplication using Java 17.0.9 with PID 18292 (C:\Users\Denis\IdeaProjects\ppk-converter-geojson\target\classes started by Denis in C:\Users\Denis\IdeaProjects\ppk-converter-geojson)
-14.04.2024 09:19:24.123 [main] INFO  r.f.i.p.PpkConverterGeojsonApplication - No active profile set, falling back to 1 default profile: "default"
-14.04.2024 09:19:24.699 [main] INFO  o.s.b.w.e.t.TomcatWebServer - Tomcat initialized with port 8080 (http)
-14.04.2024 09:19:24.705 [main] INFO  o.a.c.h.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
-14.04.2024 09:19:24.706 [main] INFO  o.a.c.c.StandardService - Starting service [Tomcat]
-14.04.2024 09:19:24.707 [main] INFO  o.a.c.c.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.19]
-14.04.2024 09:19:24.737 [main] INFO  o.a.c.c.C.[.[.[/] - Initializing Spring embedded WebApplicationContext
-14.04.2024 09:19:24.737 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 587 ms
-14.04.2024 09:19:24.880 [main] INFO  o.s.b.a.w.s.WelcomePageHandlerMapping - Adding welcome page: class path resource [static/index.html]
-14.04.2024 09:19:25.077 [main] INFO  o.a.c.h.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
-14.04.2024 09:19:25.088 [main] INFO  o.s.b.w.e.t.TomcatWebServer - Tomcat started on port 8080 (http) with context path ''
-14.04.2024 09:19:25.095 [main] INFO  r.f.i.p.PpkConverterGeojsonApplication - Started PpkConverterGeojsonApplication in 1.192 seconds (process running for 1.567)
-14.04.2024 09:19:29.093 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[.[.[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
-14.04.2024 09:19:29.093 [http-nio-8080-exec-1] INFO  o.s.w.s.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
-14.04.2024 09:19:29.094 [http-nio-8080-exec-1] INFO  o.s.w.s.DispatcherServlet - Completed initialization in 1 ms
-14.04.2024 09:19:29.355 [http-nio-8080-exec-6] WARN  r.f.i.p.c.CommonExceptionHandler - No static resource favicon.ico.
-14.04.2024 09:19:33.127 [http-nio-8080-exec-3] WARN  r.f.i.p.c.CommonExceptionHandler - No static resource favicon.ico.
-14.04.2024 09:19:35.583 [http-nio-8080-exec-4] INFO  r.f.i.p.s.PpkConverterServiceImpl - start converting convertToGeojson
-14.04.2024 09:19:35.623 [http-nio-8080-exec-4] WARN  r.f.i.p.c.CommonExceptionHandler - Unexpected EOF in prolog
- at [row,col {unknown-source}]: [1,0]
-14.04.2024 09:19:35.704 [http-nio-8080-exec-5] WARN  r.f.i.p.c.CommonExceptionHandler - No static resource favicon.ico.
-14.04.2024 09:19:50.191 [main] INFO  r.f.i.p.PpkConverterGeojsonApplication - Starting PpkConverterGeojsonApplication using Java 17.0.9 with PID 18272 (C:\Users\Denis\IdeaProjects\ppk-converter-geojson\target\classes started by Denis in C:\Users\Denis\IdeaProjects\ppk-converter-geojson)
-14.04.2024 09:19:50.192 [main] INFO  r.f.i.p.PpkConverterGeojsonApplication - No active profile set, falling back to 1 default profile: "default"
-14.04.2024 09:19:50.724 [main] INFO  o.s.b.w.e.t.TomcatWebServer - Tomcat initialized with port 8080 (http)
-14.04.2024 09:19:50.730 [main] INFO  o.a.c.h.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
-14.04.2024 09:19:50.731 [main] INFO  o.a.c.c.StandardService - Starting service [Tomcat]
-14.04.2024 09:19:50.731 [main] INFO  o.a.c.c.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.19]
-14.04.2024 09:19:50.760 [main] INFO  o.a.c.c.C.[.[.[/] - Initializing Spring embedded WebApplicationContext
-14.04.2024 09:19:50.760 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 541 ms
-14.04.2024 09:19:50.895 [main] INFO  o.s.b.a.w.s.WelcomePageHandlerMapping - Adding welcome page: class path resource [static/index.html]
-14.04.2024 09:19:51.087 [main] INFO  o.a.c.h.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
-14.04.2024 09:19:51.105 [main] INFO  o.s.b.w.e.t.TomcatWebServer - Tomcat started on port 8080 (http) with context path ''
-14.04.2024 09:19:51.115 [main] INFO  r.f.i.p.PpkConverterGeojsonApplication - Started PpkConverterGeojsonApplication in 1.146 seconds (process running for 1.576)
-14.04.2024 09:19:58.215 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[.[.[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
-14.04.2024 09:19:58.215 [http-nio-8080-exec-1] INFO  o.s.w.s.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
-14.04.2024 09:19:58.216 [http-nio-8080-exec-1] INFO  o.s.w.s.DispatcherServlet - Completed initialization in 0 ms
-14.04.2024 09:19:58.912 [http-nio-8080-exec-2] WARN  r.f.i.p.c.CommonExceptionHandler - No static resource favicon.ico.
-14.04.2024 09:20:04.038 [http-nio-8080-exec-7] INFO  r.f.i.p.s.PpkConverterServiceImpl - start converting convertToGeojson
-14.04.2024 09:20:04.165 [http-nio-8080-exec-7] INFO  r.f.i.p.s.PpkConverterServiceImpl - end converting convertToGeojson
-14.04.2024 09:22:41.379 [http-nio-8080-exec-8] WARN  r.f.i.p.c.CommonExceptionHandler - No static resource favicon.ico.
-14.04.2024 09:22:47.394 [http-nio-8080-exec-3] INFO  r.f.i.p.s.PpkConverterServiceImpl - start converting convertToGeojson
-14.04.2024 09:22:47.398 [http-nio-8080-exec-3] INFO  r.f.i.p.s.PpkConverterServiceImpl - end converting convertToGeojson
-14.04.2024 09:22:54.098 [http-nio-8080-exec-9] WARN  r.f.i.p.c.CommonExceptionHandler - No static resource favicon.ico.
-14.04.2024 09:23:00.626 [http-nio-8080-exec-4] WARN  r.f.i.p.c.CommonExceptionHandler - No static resource favicon.ico.
-14.04.2024 09:23:53.929 [main] INFO  r.f.i.p.PpkConverterGeojsonApplication - Starting PpkConverterGeojsonApplication using Java 17.0.9 with PID 1088 (C:\Users\Denis\IdeaProjects\ppk-converter-geojson\target\classes started by Denis in C:\Users\Denis\IdeaProjects\ppk-converter-geojson)
-14.04.2024 09:23:53.930 [main] INFO  r.f.i.p.PpkConverterGeojsonApplication - No active profile set, falling back to 1 default profile: "default"
-14.04.2024 09:23:54.516 [main] INFO  o.s.b.w.e.t.TomcatWebServer - Tomcat initialized with port 8080 (http)
-14.04.2024 09:23:54.522 [main] INFO  o.a.c.h.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
-14.04.2024 09:23:54.523 [main] INFO  o.a.c.c.StandardService - Starting service [Tomcat]
-14.04.2024 09:23:54.524 [main] INFO  o.a.c.c.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.19]
-14.04.2024 09:23:54.558 [main] INFO  o.a.c.c.C.[.[.[/] - Initializing Spring embedded WebApplicationContext
-14.04.2024 09:23:54.558 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 597 ms
-14.04.2024 09:23:54.704 [main] INFO  o.s.b.a.w.s.WelcomePageHandlerMapping - Adding welcome page: class path resource [static/index.html]
-14.04.2024 09:23:54.880 [main] INFO  o.a.c.h.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
-14.04.2024 09:23:54.890 [main] INFO  o.s.b.w.e.t.TomcatWebServer - Tomcat started on port 8080 (http) with context path ''
-14.04.2024 09:23:54.896 [main] INFO  r.f.i.p.PpkConverterGeojsonApplication - Started PpkConverterGeojsonApplication in 1.203 seconds (process running for 1.643)
-14.04.2024 09:23:57.979 [http-nio-8080-exec-2] INFO  o.a.c.c.C.[.[.[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
-14.04.2024 09:23:57.979 [http-nio-8080-exec-2] INFO  o.s.w.s.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
-14.04.2024 09:23:57.980 [http-nio-8080-exec-2] INFO  o.s.w.s.DispatcherServlet - Completed initialization in 1 ms
-14.04.2024 09:23:58.029 [http-nio-8080-exec-1] WARN  r.f.i.p.c.CommonExceptionHandler - No static resource favicon.ico.
-14.04.2024 09:25:04.641 [main] INFO  r.f.i.p.PpkConverterGeojsonApplication - Starting PpkConverterGeojsonApplication using Java 17.0.9 with PID 12916 (C:\Users\Denis\IdeaProjects\ppk-converter-geojson\target\classes started by Denis in C:\Users\Denis\IdeaProjects\ppk-converter-geojson)
-14.04.2024 09:25:04.642 [main] INFO  r.f.i.p.PpkConverterGeojsonApplication - No active profile set, falling back to 1 default profile: "default"
-14.04.2024 09:25:05.166 [main] INFO  o.s.b.w.e.t.TomcatWebServer - Tomcat initialized with port 8080 (http)
-14.04.2024 09:25:05.171 [main] INFO  o.a.c.h.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
-14.04.2024 09:25:05.172 [main] INFO  o.a.c.c.StandardService - Starting service [Tomcat]
-14.04.2024 09:25:05.172 [main] INFO  o.a.c.c.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.19]
-14.04.2024 09:25:05.202 [main] INFO  o.a.c.c.C.[.[.[/] - Initializing Spring embedded WebApplicationContext
-14.04.2024 09:25:05.202 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 536 ms
-14.04.2024 09:25:05.326 [main] INFO  o.s.b.a.w.s.WelcomePageHandlerMapping - Adding welcome page: class path resource [static/index.html]
-14.04.2024 09:25:05.496 [main] INFO  o.a.c.h.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
-14.04.2024 09:25:05.505 [main] INFO  o.s.b.w.e.t.TomcatWebServer - Tomcat started on port 8080 (http) with context path ''
-14.04.2024 09:25:05.511 [main] INFO  r.f.i.p.PpkConverterGeojsonApplication - Started PpkConverterGeojsonApplication in 1.078 seconds (process running for 1.445)
-14.04.2024 09:25:09.042 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[.[.[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
-14.04.2024 09:25:09.043 [http-nio-8080-exec-1] INFO  o.s.w.s.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
-14.04.2024 09:25:09.044 [http-nio-8080-exec-1] INFO  o.s.w.s.DispatcherServlet - Completed initialization in 0 ms
-14.04.2024 09:25:09.083 [http-nio-8080-exec-3] WARN  r.f.i.p.c.CommonExceptionHandler - No static resource favicon.ico.
-14.04.2024 09:25:14.999 [http-nio-8080-exec-4] INFO  r.f.i.p.s.PpkConverterServiceImpl - start converting convertToGeojson
-14.04.2024 09:25:15.050 [http-nio-8080-exec-4] INFO  r.f.i.p.s.PpkConverterServiceImpl - end converting convertToGeojson
-14.04.2024 09:25:20.677 [http-nio-8080-exec-2] WARN  r.f.i.p.c.CommonExceptionHandler - No static resource favicon.ico.
-14.04.2024 09:28:12.429 [main] INFO  r.f.i.p.PpkConverterGeojsonApplication - Starting PpkConverterGeojsonApplication using Java 17.0.9 with PID 3472 (C:\Users\Denis\IdeaProjects\ppk-converter-geojson\target\classes started by Denis in C:\Users\Denis\IdeaProjects\ppk-converter-geojson)
-14.04.2024 09:28:12.430 [main] INFO  r.f.i.p.PpkConverterGeojsonApplication - No active profile set, falling back to 1 default profile: "default"
-14.04.2024 09:28:13.016 [main] INFO  o.s.b.w.e.t.TomcatWebServer - Tomcat initialized with port 8080 (http)
-14.04.2024 09:28:13.023 [main] INFO  o.a.c.h.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
-14.04.2024 09:28:13.024 [main] INFO  o.a.c.c.StandardService - Starting service [Tomcat]
-14.04.2024 09:28:13.025 [main] INFO  o.a.c.c.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.19]
-14.04.2024 09:28:13.058 [main] INFO  o.a.c.c.C.[.[.[/] - Initializing Spring embedded WebApplicationContext
-14.04.2024 09:28:13.058 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 600 ms
-14.04.2024 09:28:13.212 [main] INFO  o.s.b.a.w.s.WelcomePageHandlerMapping - Adding welcome page: class path resource [static/index.html]
-14.04.2024 09:28:13.411 [main] INFO  o.a.c.h.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
-14.04.2024 09:28:13.422 [main] INFO  o.s.b.w.e.t.TomcatWebServer - Tomcat started on port 8080 (http) with context path ''
-14.04.2024 09:28:13.429 [main] INFO  r.f.i.p.PpkConverterGeojsonApplication - Started PpkConverterGeojsonApplication in 1.238 seconds (process running for 1.704)
-14.04.2024 09:28:17.074 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[.[.[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
-14.04.2024 09:28:17.074 [http-nio-8080-exec-1] INFO  o.s.w.s.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
-14.04.2024 09:28:17.075 [http-nio-8080-exec-1] INFO  o.s.w.s.DispatcherServlet - Completed initialization in 1 ms
-14.04.2024 09:28:17.158 [http-nio-8080-exec-3] WARN  r.f.i.p.c.CommonExceptionHandler - No static resource favicon.ico.
-14.04.2024 09:28:52.150 [main] INFO  r.f.i.p.PpkConverterGeojsonApplication - Starting PpkConverterGeojsonApplication using Java 17.0.9 with PID 8404 (C:\Users\Denis\IdeaProjects\ppk-converter-geojson\target\classes started by Denis in C:\Users\Denis\IdeaProjects\ppk-converter-geojson)
-14.04.2024 09:28:52.152 [main] INFO  r.f.i.p.PpkConverterGeojsonApplication - No active profile set, falling back to 1 default profile: "default"
-14.04.2024 09:28:52.745 [main] INFO  o.s.b.w.e.t.TomcatWebServer - Tomcat initialized with port 8080 (http)
-14.04.2024 09:28:52.753 [main] INFO  o.a.c.h.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
-14.04.2024 09:28:52.754 [main] INFO  o.a.c.c.StandardService - Starting service [Tomcat]
-14.04.2024 09:28:52.755 [main] INFO  o.a.c.c.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.19]
-14.04.2024 09:28:52.807 [main] INFO  o.a.c.c.C.[.[.[/] - Initializing Spring embedded WebApplicationContext
-14.04.2024 09:28:52.808 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 630 ms
-14.04.2024 09:28:52.960 [main] INFO  o.s.b.a.w.s.WelcomePageHandlerMapping - Adding welcome page: class path resource [static/index.html]
-14.04.2024 09:28:53.173 [main] INFO  o.a.c.h.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
-14.04.2024 09:28:53.187 [main] INFO  o.s.b.w.e.t.TomcatWebServer - Tomcat started on port 8080 (http) with context path ''
-14.04.2024 09:28:53.193 [main] INFO  r.f.i.p.PpkConverterGeojsonApplication - Started PpkConverterGeojsonApplication in 1.282 seconds (process running for 1.742)
-14.04.2024 09:28:56.676 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[.[.[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
-14.04.2024 09:28:56.677 [http-nio-8080-exec-1] INFO  o.s.w.s.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
-14.04.2024 09:28:56.678 [http-nio-8080-exec-1] INFO  o.s.w.s.DispatcherServlet - Completed initialization in 0 ms
-14.04.2024 09:28:56.743 [http-nio-8080-exec-2] WARN  r.f.i.p.c.CommonExceptionHandler - No static resource favicon.ico.
-14.04.2024 09:29:00.612 [http-nio-8080-exec-6] INFO  r.f.i.p.s.PpkConverterServiceImpl - start converting convertToGeojson
-14.04.2024 09:29:00.683 [http-nio-8080-exec-6] INFO  r.f.i.p.s.PpkConverterServiceImpl - end converting convertToGeojson
-14.04.2024 09:31:40.404 [main] INFO  r.f.i.p.PpkConverterGeojsonApplication - Starting PpkConverterGeojsonApplication using Java 17.0.9 with PID 11700 (C:\Users\Denis\IdeaProjects\ppk-converter-geojson\target\classes started by Denis in C:\Users\Denis\IdeaProjects\ppk-converter-geojson)
-14.04.2024 09:31:40.405 [main] INFO  r.f.i.p.PpkConverterGeojsonApplication - No active profile set, falling back to 1 default profile: "default"
-14.04.2024 09:31:40.971 [main] INFO  o.s.b.w.e.t.TomcatWebServer - Tomcat initialized with port 8080 (http)
-14.04.2024 09:31:40.978 [main] INFO  o.a.c.h.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
-14.04.2024 09:31:40.979 [main] INFO  o.a.c.c.StandardService - Starting service [Tomcat]
-14.04.2024 09:31:40.980 [main] INFO  o.a.c.c.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.19]
-14.04.2024 09:31:41.025 [main] INFO  o.a.c.c.C.[.[.[/] - Initializing Spring embedded WebApplicationContext
-14.04.2024 09:31:41.025 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 590 ms
-14.04.2024 09:31:41.177 [main] INFO  o.s.b.a.w.s.WelcomePageHandlerMapping - Adding welcome page: class path resource [static/index.html]
-14.04.2024 09:31:41.384 [main] INFO  o.a.c.h.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
-14.04.2024 09:31:41.395 [main] INFO  o.s.b.w.e.t.TomcatWebServer - Tomcat started on port 8080 (http) with context path ''
-14.04.2024 09:31:41.401 [main] INFO  r.f.i.p.PpkConverterGeojsonApplication - Started PpkConverterGeojsonApplication in 1.241 seconds (process running for 1.69)
-14.04.2024 09:32:09.954 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[.[.[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
-14.04.2024 09:32:09.955 [http-nio-8080-exec-1] INFO  o.s.w.s.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
-14.04.2024 09:32:09.956 [http-nio-8080-exec-1] INFO  o.s.w.s.DispatcherServlet - Completed initialization in 1 ms
-14.04.2024 09:32:10.010 [http-nio-8080-exec-3] WARN  r.f.i.p.c.CommonExceptionHandler - No static resource favicon.ico.
-14.04.2024 09:32:14.105 [http-nio-8080-exec-2] INFO  r.f.i.p.s.PpkConverterServiceImpl - start converting convertToGeojson
-14.04.2024 09:32:14.173 [http-nio-8080-exec-2] INFO  r.f.i.p.s.PpkConverterServiceImpl - end converting convertToGeojson
-14.04.2024 09:32:16.621 [http-nio-8080-exec-4] WARN  r.f.i.p.c.CommonExceptionHandler - No static resource favicon.ico.
-14.04.2024 09:32:28.318 [main] INFO  r.f.i.p.PpkConverterGeojsonApplication - Starting PpkConverterGeojsonApplication using Java 17.0.9 with PID 11808 (C:\Users\Denis\IdeaProjects\ppk-converter-geojson\target\classes started by Denis in C:\Users\Denis\IdeaProjects\ppk-converter-geojson)
-14.04.2024 09:32:28.319 [main] INFO  r.f.i.p.PpkConverterGeojsonApplication - No active profile set, falling back to 1 default profile: "default"
-14.04.2024 09:32:28.941 [main] INFO  o.s.b.w.e.t.TomcatWebServer - Tomcat initialized with port 8080 (http)
-14.04.2024 09:32:28.947 [main] INFO  o.a.c.h.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
-14.04.2024 09:32:28.949 [main] INFO  o.a.c.c.StandardService - Starting service [Tomcat]
-14.04.2024 09:32:28.949 [main] INFO  o.a.c.c.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.19]
-14.04.2024 09:32:28.984 [main] INFO  o.a.c.c.C.[.[.[/] - Initializing Spring embedded WebApplicationContext
-14.04.2024 09:32:28.984 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 634 ms
-14.04.2024 09:32:29.131 [main] INFO  o.s.b.a.w.s.WelcomePageHandlerMapping - Adding welcome page: class path resource [static/index.html]
-14.04.2024 09:32:29.324 [main] INFO  o.a.c.h.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
-14.04.2024 09:32:29.336 [main] INFO  o.s.b.w.e.t.TomcatWebServer - Tomcat started on port 8080 (http) with context path ''
-14.04.2024 09:32:29.341 [main] INFO  r.f.i.p.PpkConverterGeojsonApplication - Started PpkConverterGeojsonApplication in 1.264 seconds (process running for 1.711)
-14.04.2024 09:32:34.038 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[.[.[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
-14.04.2024 09:32:34.038 [http-nio-8080-exec-1] INFO  o.s.w.s.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
-14.04.2024 09:32:34.039 [http-nio-8080-exec-1] INFO  o.s.w.s.DispatcherServlet - Completed initialization in 1 ms
-14.04.2024 09:32:34.075 [http-nio-8080-exec-1] INFO  r.f.i.p.s.PpkConverterServiceImpl - start converting convertToGeojson
-14.04.2024 09:32:34.167 [http-nio-8080-exec-1] INFO  r.f.i.p.s.PpkConverterServiceImpl - end converting convertToGeojson
-14.04.2024 09:34:04.638 [http-nio-8080-exec-5] WARN  r.f.i.p.c.CommonExceptionHandler - No static resource favicon.ico.
-14.04.2024 09:35:58.263 [main] INFO  r.f.i.p.PpkConverterGeojsonApplication - Starting PpkConverterGeojsonApplication using Java 17.0.9 with PID 244 (C:\Users\Denis\IdeaProjects\ppk-converter-geojson\target\classes started by Denis in C:\Users\Denis\IdeaProjects\ppk-converter-geojson)
-14.04.2024 09:35:58.265 [main] INFO  r.f.i.p.PpkConverterGeojsonApplication - No active profile set, falling back to 1 default profile: "default"
-14.04.2024 09:35:58.872 [main] INFO  o.s.b.w.e.t.TomcatWebServer - Tomcat initialized with port 8080 (http)
-14.04.2024 09:35:58.878 [main] INFO  o.a.c.h.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
-14.04.2024 09:35:58.879 [main] INFO  o.a.c.c.StandardService - Starting service [Tomcat]
-14.04.2024 09:35:58.880 [main] INFO  o.a.c.c.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.19]
-14.04.2024 09:35:58.912 [main] INFO  o.a.c.c.C.[.[.[/] - Initializing Spring embedded WebApplicationContext
-14.04.2024 09:35:58.913 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 618 ms
-14.04.2024 09:35:59.051 [main] INFO  o.s.b.a.w.s.WelcomePageHandlerMapping - Adding welcome page: class path resource [static/index.html]
-14.04.2024 09:35:59.249 [main] INFO  o.a.c.h.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
-14.04.2024 09:35:59.262 [main] INFO  o.s.b.w.e.t.TomcatWebServer - Tomcat started on port 8080 (http) with context path ''
-14.04.2024 09:35:59.269 [main] INFO  r.f.i.p.PpkConverterGeojsonApplication - Started PpkConverterGeojsonApplication in 1.253 seconds (process running for 1.713)
-14.04.2024 09:36:04.383 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[.[.[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
-14.04.2024 09:36:04.383 [http-nio-8080-exec-1] INFO  o.s.w.s.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
-14.04.2024 09:36:04.384 [http-nio-8080-exec-1] INFO  o.s.w.s.DispatcherServlet - Completed initialization in 1 ms
-14.04.2024 09:36:05.631 [http-nio-8080-exec-5] WARN  r.f.i.p.c.CommonExceptionHandler - No static resource favicon.ico.
-14.04.2024 09:36:08.584 [http-nio-8080-exec-2] INFO  r.f.i.p.s.PpkConverterServiceImpl - start converting convertToGeojson
-14.04.2024 09:36:08.645 [http-nio-8080-exec-2] INFO  r.f.i.p.s.PpkConverterServiceImpl - end converting convertToGeojson
-14.04.2024 09:37:28.615 [main] INFO  r.f.i.p.PpkConverterGeojsonApplication - Starting PpkConverterGeojsonApplication using Java 17.0.9 with PID 13768 (C:\Users\Denis\IdeaProjects\ppk-converter-geojson\target\classes started by Denis in C:\Users\Denis\IdeaProjects\ppk-converter-geojson)
-14.04.2024 09:37:28.616 [main] INFO  r.f.i.p.PpkConverterGeojsonApplication - No active profile set, falling back to 1 default profile: "default"
-14.04.2024 09:37:29.213 [main] INFO  o.s.b.w.e.t.TomcatWebServer - Tomcat initialized with port 8080 (http)
-14.04.2024 09:37:29.220 [main] INFO  o.a.c.h.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
-14.04.2024 09:37:29.221 [main] INFO  o.a.c.c.StandardService - Starting service [Tomcat]
-14.04.2024 09:37:29.221 [main] INFO  o.a.c.c.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.19]
-14.04.2024 09:37:29.254 [main] INFO  o.a.c.c.C.[.[.[/] - Initializing Spring embedded WebApplicationContext
-14.04.2024 09:37:29.254 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 610 ms
-14.04.2024 09:37:29.387 [main] INFO  o.s.b.a.w.s.WelcomePageHandlerMapping - Adding welcome page: class path resource [static/index.html]
-14.04.2024 09:37:29.581 [main] INFO  o.a.c.h.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
-14.04.2024 09:37:29.593 [main] INFO  o.s.b.w.e.t.TomcatWebServer - Tomcat started on port 8080 (http) with context path ''
-14.04.2024 09:37:29.599 [main] INFO  r.f.i.p.PpkConverterGeojsonApplication - Started PpkConverterGeojsonApplication in 1.224 seconds (process running for 1.696)
-14.04.2024 09:37:34.567 [http-nio-8080-exec-2] INFO  o.a.c.c.C.[.[.[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
-14.04.2024 09:37:34.568 [http-nio-8080-exec-2] INFO  o.s.w.s.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
-14.04.2024 09:37:34.569 [http-nio-8080-exec-2] INFO  o.s.w.s.DispatcherServlet - Completed initialization in 1 ms
-14.04.2024 09:37:34.621 [http-nio-8080-exec-1] WARN  r.f.i.p.c.CommonExceptionHandler - No static resource favicon.ico.
-14.04.2024 09:37:38.301 [http-nio-8080-exec-10] INFO  r.f.i.p.s.PpkConverterServiceImpl - start converting convertToGeojson
-14.04.2024 09:37:38.353 [http-nio-8080-exec-10] INFO  r.f.i.p.s.PpkConverterServiceImpl - end converting convertToGeojson
-14.04.2024 09:39:52.778 [main] INFO  r.f.i.p.PpkConverterGeojsonApplication - Starting PpkConverterGeojsonApplication using Java 17.0.9 with PID 2728 (C:\Users\Denis\IdeaProjects\ppk-converter-geojson\target\classes started by Denis in C:\Users\Denis\IdeaProjects\ppk-converter-geojson)
-14.04.2024 09:39:52.780 [main] INFO  r.f.i.p.PpkConverterGeojsonApplication - No active profile set, falling back to 1 default profile: "default"
-14.04.2024 09:39:53.356 [main] INFO  o.s.b.w.e.t.TomcatWebServer - Tomcat initialized with port 8080 (http)
-14.04.2024 09:39:53.362 [main] INFO  o.a.c.h.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
-14.04.2024 09:39:53.363 [main] INFO  o.a.c.c.StandardService - Starting service [Tomcat]
-14.04.2024 09:39:53.364 [main] INFO  o.a.c.c.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.19]
-14.04.2024 09:39:53.396 [main] INFO  o.a.c.c.C.[.[.[/] - Initializing Spring embedded WebApplicationContext
-14.04.2024 09:39:53.397 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 591 ms
-14.04.2024 09:39:53.529 [main] INFO  o.s.b.a.w.s.WelcomePageHandlerMapping - Adding welcome page: class path resource [static/index.html]
-14.04.2024 09:39:53.712 [main] INFO  o.a.c.h.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
-14.04.2024 09:39:53.723 [main] INFO  o.s.b.w.e.t.TomcatWebServer - Tomcat started on port 8080 (http) with context path ''
-14.04.2024 09:39:53.729 [main] INFO  r.f.i.p.PpkConverterGeojsonApplication - Started PpkConverterGeojsonApplication in 1.176 seconds (process running for 1.603)
-14.04.2024 09:39:56.436 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[.[.[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
-14.04.2024 09:39:56.436 [http-nio-8080-exec-1] INFO  o.s.w.s.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
-14.04.2024 09:39:56.437 [http-nio-8080-exec-1] INFO  o.s.w.s.DispatcherServlet - Completed initialization in 1 ms
-14.04.2024 09:39:57.373 [http-nio-8080-exec-2] WARN  r.f.i.p.c.CommonExceptionHandler - No static resource favicon.ico.
-14.04.2024 09:40:02.297 [http-nio-8080-exec-4] INFO  r.f.i.p.s.PpkConverterServiceImpl - start converting convertToGeojson
-14.04.2024 09:40:02.375 [http-nio-8080-exec-4] INFO  r.f.i.p.s.PpkConverterServiceImpl - end converting convertToGeojson
-14.04.2024 09:40:10.243 [http-nio-8080-exec-3] WARN  r.f.i.p.c.CommonExceptionHandler - No static resource favicon.ico.
-14.04.2024 09:44:53.679 [main] INFO  r.f.i.p.PpkConverterGeojsonApplication - Starting PpkConverterGeojsonApplication using Java 17.0.9 with PID 3424 (C:\Users\Denis\IdeaProjects\ppk-converter-geojson\target\classes started by Denis in C:\Users\Denis\IdeaProjects\ppk-converter-geojson)
-14.04.2024 09:44:53.680 [main] INFO  r.f.i.p.PpkConverterGeojsonApplication - No active profile set, falling back to 1 default profile: "default"
-14.04.2024 09:44:54.245 [main] INFO  o.s.b.w.e.t.TomcatWebServer - Tomcat initialized with port 8080 (http)
-14.04.2024 09:44:54.250 [main] INFO  o.a.c.h.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
-14.04.2024 09:44:54.251 [main] INFO  o.a.c.c.StandardService - Starting service [Tomcat]
-14.04.2024 09:44:54.252 [main] INFO  o.a.c.c.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.19]
-14.04.2024 09:44:54.285 [main] INFO  o.a.c.c.C.[.[.[/] - Initializing Spring embedded WebApplicationContext
-14.04.2024 09:44:54.285 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 581 ms
-14.04.2024 09:44:54.422 [main] INFO  o.s.b.a.w.s.WelcomePageHandlerMapping - Adding welcome page: class path resource [static/index.html]
-14.04.2024 09:44:54.617 [main] INFO  o.a.c.h.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
-14.04.2024 09:44:54.631 [main] INFO  o.s.b.w.e.t.TomcatWebServer - Tomcat started on port 8080 (http) with context path ''
-14.04.2024 09:44:54.637 [main] INFO  r.f.i.p.PpkConverterGeojsonApplication - Started PpkConverterGeojsonApplication in 1.181 seconds (process running for 1.582)
-14.04.2024 09:44:59.562 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[.[.[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
-14.04.2024 09:44:59.562 [http-nio-8080-exec-1] INFO  o.s.w.s.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
-14.04.2024 09:44:59.563 [http-nio-8080-exec-1] INFO  o.s.w.s.DispatcherServlet - Completed initialization in 1 ms
-14.04.2024 09:44:59.633 [http-nio-8080-exec-2] WARN  r.f.i.p.c.CommonExceptionHandler - No static resource favicon.ico.
-14.04.2024 09:45:22.974 [main] INFO  r.f.i.p.PpkConverterGeojsonApplication - Starting PpkConverterGeojsonApplication using Java 17.0.9 with PID 8976 (C:\Users\Denis\IdeaProjects\ppk-converter-geojson\target\classes started by Denis in C:\Users\Denis\IdeaProjects\ppk-converter-geojson)
-14.04.2024 09:45:22.975 [main] INFO  r.f.i.p.PpkConverterGeojsonApplication - No active profile set, falling back to 1 default profile: "default"
-14.04.2024 09:45:23.536 [main] INFO  o.s.b.w.e.t.TomcatWebServer - Tomcat initialized with port 8080 (http)
-14.04.2024 09:45:23.542 [main] INFO  o.a.c.h.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
-14.04.2024 09:45:23.544 [main] INFO  o.a.c.c.StandardService - Starting service [Tomcat]
-14.04.2024 09:45:23.544 [main] INFO  o.a.c.c.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.19]
-14.04.2024 09:45:23.578 [main] INFO  o.a.c.c.C.[.[.[/] - Initializing Spring embedded WebApplicationContext
-14.04.2024 09:45:23.579 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 577 ms
-14.04.2024 09:45:23.731 [main] INFO  o.s.b.a.w.s.WelcomePageHandlerMapping - Adding welcome page: class path resource [static/index.html]
-14.04.2024 09:45:23.941 [main] INFO  o.a.c.h.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
-14.04.2024 09:45:23.953 [main] INFO  o.s.b.w.e.t.TomcatWebServer - Tomcat started on port 8080 (http) with context path ''
-14.04.2024 09:45:23.959 [main] INFO  r.f.i.p.PpkConverterGeojsonApplication - Started PpkConverterGeojsonApplication in 1.226 seconds (process running for 1.63)
-14.04.2024 09:45:26.416 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[.[.[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
-14.04.2024 09:45:26.417 [http-nio-8080-exec-1] INFO  o.s.w.s.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
-14.04.2024 09:45:26.419 [http-nio-8080-exec-1] INFO  o.s.w.s.DispatcherServlet - Completed initialization in 2 ms
-14.04.2024 09:45:27.300 [http-nio-8080-exec-3] WARN  r.f.i.p.c.CommonExceptionHandler - No static resource favicon.ico.
-14.04.2024 09:45:30.160 [http-nio-8080-exec-4] INFO  r.f.i.p.s.PpkConverterServiceImpl - start converting convertToGeojson
-14.04.2024 09:45:30.216 [http-nio-8080-exec-4] INFO  r.f.i.p.s.PpkConverterServiceImpl - end converting convertToGeojson
-14.04.2024 09:46:28.568 [main] INFO  r.f.i.p.PpkConverterGeojsonApplication - Starting PpkConverterGeojsonApplication using Java 17.0.9 with PID 1380 (C:\Users\Denis\IdeaProjects\ppk-converter-geojson\target\classes started by Denis in C:\Users\Denis\IdeaProjects\ppk-converter-geojson)
-14.04.2024 09:46:28.569 [main] INFO  r.f.i.p.PpkConverterGeojsonApplication - No active profile set, falling back to 1 default profile: "default"
-14.04.2024 09:46:29.121 [main] INFO  o.s.b.w.e.t.TomcatWebServer - Tomcat initialized with port 8080 (http)
-14.04.2024 09:46:29.128 [main] INFO  o.a.c.h.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
-14.04.2024 09:46:29.129 [main] INFO  o.a.c.c.StandardService - Starting service [Tomcat]
-14.04.2024 09:46:29.129 [main] INFO  o.a.c.c.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.19]
-14.04.2024 09:46:29.163 [main] INFO  o.a.c.c.C.[.[.[/] - Initializing Spring embedded WebApplicationContext
-14.04.2024 09:46:29.163 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 569 ms
-14.04.2024 09:46:29.285 [main] INFO  o.s.b.a.w.s.WelcomePageHandlerMapping - Adding welcome page: class path resource [static/index.html]
-14.04.2024 09:46:29.464 [main] INFO  o.a.c.h.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
-14.04.2024 09:46:29.473 [main] INFO  o.s.b.w.e.t.TomcatWebServer - Tomcat started on port 8080 (http) with context path ''
-14.04.2024 09:46:29.478 [main] INFO  r.f.i.p.PpkConverterGeojsonApplication - Started PpkConverterGeojsonApplication in 1.142 seconds (process running for 1.579)
-14.04.2024 09:46:33.493 [http-nio-8080-exec-3] INFO  o.a.c.c.C.[.[.[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
-14.04.2024 09:46:33.494 [http-nio-8080-exec-3] INFO  o.s.w.s.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
-14.04.2024 09:46:33.495 [http-nio-8080-exec-3] INFO  o.s.w.s.DispatcherServlet - Completed initialization in 1 ms
-14.04.2024 09:46:34.145 [http-nio-8080-exec-4] WARN  r.f.i.p.c.CommonExceptionHandler - No static resource favicon.ico.
-14.04.2024 09:46:37.672 [http-nio-8080-exec-2] INFO  r.f.i.p.s.PpkConverterServiceImpl - start converting convertToGeojson
-14.04.2024 09:46:37.730 [http-nio-8080-exec-2] INFO  r.f.i.p.s.PpkConverterServiceImpl - end converting convertToGeojson
-14.04.2024 09:47:00.200 [http-nio-8080-exec-8] WARN  r.f.i.p.c.CommonExceptionHandler - No static resource favicon.ico.
-14.04.2024 09:47:03.587 [main] INFO  r.f.i.p.PpkConverterGeojsonApplication - Starting PpkConverterGeojsonApplication using Java 17.0.9 with PID 1748 (C:\Users\Denis\IdeaProjects\ppk-converter-geojson\target\classes started by Denis in C:\Users\Denis\IdeaProjects\ppk-converter-geojson)
-14.04.2024 09:47:03.589 [main] INFO  r.f.i.p.PpkConverterGeojsonApplication - No active profile set, falling back to 1 default profile: "default"
-14.04.2024 09:47:04.177 [main] INFO  o.s.b.w.e.t.TomcatWebServer - Tomcat initialized with port 8080 (http)
-14.04.2024 09:47:04.183 [main] INFO  o.a.c.h.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
-14.04.2024 09:47:04.184 [main] INFO  o.a.c.c.StandardService - Starting service [Tomcat]
-14.04.2024 09:47:04.184 [main] INFO  o.a.c.c.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.19]
-14.04.2024 09:47:04.216 [main] INFO  o.a.c.c.C.[.[.[/] - Initializing Spring embedded WebApplicationContext
-14.04.2024 09:47:04.216 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 595 ms
-14.04.2024 09:47:04.342 [main] INFO  o.s.b.a.w.s.WelcomePageHandlerMapping - Adding welcome page: class path resource [static/index.html]
-14.04.2024 09:47:04.505 [main] INFO  o.a.c.h.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
-14.04.2024 09:47:04.514 [main] INFO  o.s.b.w.e.t.TomcatWebServer - Tomcat started on port 8080 (http) with context path ''
-14.04.2024 09:47:04.521 [main] INFO  r.f.i.p.PpkConverterGeojsonApplication - Started PpkConverterGeojsonApplication in 1.16 seconds (process running for 1.623)
-14.04.2024 09:47:07.456 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[.[.[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
-14.04.2024 09:47:07.457 [http-nio-8080-exec-1] INFO  o.s.w.s.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
-14.04.2024 09:47:07.458 [http-nio-8080-exec-1] INFO  o.s.w.s.DispatcherServlet - Completed initialization in 1 ms
-14.04.2024 09:47:07.510 [http-nio-8080-exec-3] WARN  r.f.i.p.c.CommonExceptionHandler - No static resource favicon.ico.
-14.04.2024 09:49:22.909 [http-nio-8080-exec-2] WARN  r.f.i.p.c.CommonExceptionHandler - No static resource favicon.ico.
-14.04.2024 09:53:10.389 [main] INFO  r.f.i.p.PpkConverterGeojsonApplication - Starting PpkConverterGeojsonApplication using Java 17.0.9 with PID 12476 (C:\Users\Denis\IdeaProjects\ppk-converter-geojson\target\classes started by Denis in C:\Users\Denis\IdeaProjects\ppk-converter-geojson)
-14.04.2024 09:53:10.391 [main] INFO  r.f.i.p.PpkConverterGeojsonApplication - No active profile set, falling back to 1 default profile: "default"
-14.04.2024 09:53:10.992 [main] INFO  o.s.b.w.e.t.TomcatWebServer - Tomcat initialized with port 8080 (http)
-14.04.2024 09:53:10.999 [main] INFO  o.a.c.h.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
-14.04.2024 09:53:11.000 [main] INFO  o.a.c.c.StandardService - Starting service [Tomcat]
-14.04.2024 09:53:11.000 [main] INFO  o.a.c.c.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.19]
-14.04.2024 09:53:11.034 [main] INFO  o.a.c.c.C.[.[.[/] - Initializing Spring embedded WebApplicationContext
-14.04.2024 09:53:11.034 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 618 ms
-14.04.2024 09:53:11.173 [main] INFO  o.s.b.a.w.s.WelcomePageHandlerMapping - Adding welcome page: class path resource [static/index.html]
-14.04.2024 09:53:11.372 [main] INFO  o.a.c.h.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
-14.04.2024 09:53:11.384 [main] INFO  o.s.b.w.e.t.TomcatWebServer - Tomcat started on port 8080 (http) with context path ''
-14.04.2024 09:53:11.390 [main] INFO  r.f.i.p.PpkConverterGeojsonApplication - Started PpkConverterGeojsonApplication in 1.222 seconds (process running for 1.679)
-14.04.2024 09:53:17.541 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[.[.[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
-14.04.2024 09:53:17.542 [http-nio-8080-exec-1] INFO  o.s.w.s.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
-14.04.2024 09:53:17.544 [http-nio-8080-exec-1] INFO  o.s.w.s.DispatcherServlet - Completed initialization in 2 ms
-14.04.2024 09:53:18.554 [http-nio-8080-exec-8] WARN  r.f.i.p.c.CommonExceptionHandler - No static resource favicon.ico.
-14.04.2024 09:53:21.809 [http-nio-8080-exec-10] INFO  r.f.i.p.s.PpkConverterServiceImpl - start converting convertToGeojson
-14.04.2024 09:53:21.877 [http-nio-8080-exec-10] INFO  r.f.i.p.s.PpkConverterServiceImpl - end converting convertToGeojson
-14.04.2024 09:54:00.812 [main] INFO  r.f.i.p.PpkConverterGeojsonApplication - Starting PpkConverterGeojsonApplication using Java 17.0.9 with PID 14416 (C:\Users\Denis\IdeaProjects\ppk-converter-geojson\target\classes started by Denis in C:\Users\Denis\IdeaProjects\ppk-converter-geojson)
-14.04.2024 09:54:00.813 [main] INFO  r.f.i.p.PpkConverterGeojsonApplication - No active profile set, falling back to 1 default profile: "default"
-14.04.2024 09:54:01.384 [main] INFO  o.s.b.w.e.t.TomcatWebServer - Tomcat initialized with port 8080 (http)
-14.04.2024 09:54:01.391 [main] INFO  o.a.c.h.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
-14.04.2024 09:54:01.392 [main] INFO  o.a.c.c.StandardService - Starting service [Tomcat]
-14.04.2024 09:54:01.392 [main] INFO  o.a.c.c.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.19]
-14.04.2024 09:54:01.427 [main] INFO  o.a.c.c.C.[.[.[/] - Initializing Spring embedded WebApplicationContext
-14.04.2024 09:54:01.428 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 586 ms
-14.04.2024 09:54:01.570 [main] INFO  o.s.b.a.w.s.WelcomePageHandlerMapping - Adding welcome page: class path resource [static/index.html]
-14.04.2024 09:54:01.781 [main] INFO  o.a.c.h.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
-14.04.2024 09:54:01.794 [main] INFO  o.s.b.w.e.t.TomcatWebServer - Tomcat started on port 8080 (http) with context path ''
-14.04.2024 09:54:01.803 [main] INFO  r.f.i.p.PpkConverterGeojsonApplication - Started PpkConverterGeojsonApplication in 1.237 seconds (process running for 1.718)
-14.04.2024 09:54:06.899 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[.[.[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
-14.04.2024 09:54:06.899 [http-nio-8080-exec-1] INFO  o.s.w.s.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
-14.04.2024 09:54:06.900 [http-nio-8080-exec-1] INFO  o.s.w.s.DispatcherServlet - Completed initialization in 1 ms
-14.04.2024 09:54:07.762 [http-nio-8080-exec-9] WARN  r.f.i.p.c.CommonExceptionHandler - No static resource favicon.ico.
-14.04.2024 09:54:10.904 [http-nio-8080-exec-2] INFO  r.f.i.p.s.PpkConverterServiceImpl - start converting convertToGeojson
-14.04.2024 09:54:10.964 [http-nio-8080-exec-2] INFO  r.f.i.p.s.PpkConverterServiceImpl - end converting convertToGeojson
+15.04.2024 09:46:30.084 [main] INFO  r.f.i.p.PpkConverterGeojsonApplication - Starting PpkConverterGeojsonApplication using Java 17.0.9 with PID 1908 (C:\Users\Denis\IdeaProjects\ppk-converter-geojson\target\classes started by Denis in C:\Users\Denis\IdeaProjects\ppk-converter-geojson)
+15.04.2024 09:46:30.087 [main] INFO  r.f.i.p.PpkConverterGeojsonApplication - No active profile set, falling back to 1 default profile: "default"
+15.04.2024 09:46:30.802 [main] INFO  o.s.b.w.e.t.TomcatWebServer - Tomcat initialized with port 8080 (http)
+15.04.2024 09:46:30.809 [main] INFO  o.a.c.h.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+15.04.2024 09:46:30.810 [main] INFO  o.a.c.c.StandardService - Starting service [Tomcat]
+15.04.2024 09:46:30.811 [main] INFO  o.a.c.c.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.19]
+15.04.2024 09:46:30.849 [main] INFO  o.a.c.c.C.[.[.[/] - Initializing Spring embedded WebApplicationContext
+15.04.2024 09:46:30.850 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 730 ms
+15.04.2024 09:46:31.000 [main] INFO  o.s.b.a.w.s.WelcomePageHandlerMapping - Adding welcome page: class path resource [static/index.html]
+15.04.2024 09:46:31.220 [main] INFO  o.a.c.h.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+15.04.2024 09:46:31.225 [main] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'
+15.04.2024 09:46:31.238 [main] INFO  o.s.b.a.l.ConditionEvaluationReportLogger - 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+15.04.2024 09:46:31.250 [main] ERROR o.s.b.d.LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8080 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8080 or configure this application to listen on another port.
+
+15.04.2024 09:46:48.650 [main] INFO  r.f.i.p.PpkConverterGeojsonApplication - Starting PpkConverterGeojsonApplication using Java 17.0.9 with PID 20240 (C:\Users\Denis\IdeaProjects\ppk-converter-geojson\target\classes started by Denis in C:\Users\Denis\IdeaProjects\ppk-converter-geojson)
+15.04.2024 09:46:48.652 [main] INFO  r.f.i.p.PpkConverterGeojsonApplication - No active profile set, falling back to 1 default profile: "default"
+15.04.2024 09:46:49.289 [main] INFO  o.s.b.w.e.t.TomcatWebServer - Tomcat initialized with port 8080 (http)
+15.04.2024 09:46:49.297 [main] INFO  o.a.c.h.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+15.04.2024 09:46:49.298 [main] INFO  o.a.c.c.StandardService - Starting service [Tomcat]
+15.04.2024 09:46:49.298 [main] INFO  o.a.c.c.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.19]
+15.04.2024 09:46:49.333 [main] INFO  o.a.c.c.C.[.[.[/] - Initializing Spring embedded WebApplicationContext
+15.04.2024 09:46:49.334 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 652 ms
+15.04.2024 09:46:49.482 [main] INFO  o.s.b.a.w.s.WelcomePageHandlerMapping - Adding welcome page: class path resource [static/index.html]
+15.04.2024 09:46:49.712 [main] INFO  o.a.c.h.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+15.04.2024 09:46:49.717 [main] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'
+15.04.2024 09:46:49.727 [main] INFO  o.s.b.a.l.ConditionEvaluationReportLogger - 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+15.04.2024 09:46:49.737 [main] ERROR o.s.b.d.LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8080 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8080 or configure this application to listen on another port.
+
+15.04.2024 09:47:13.665 [main] INFO  r.f.i.p.PpkConverterGeojsonApplication - Starting PpkConverterGeojsonApplication using Java 17.0.9 with PID 16520 (C:\Users\Denis\IdeaProjects\ppk-converter-geojson\target\classes started by Denis in C:\Users\Denis\IdeaProjects\ppk-converter-geojson)
+15.04.2024 09:47:13.667 [main] INFO  r.f.i.p.PpkConverterGeojsonApplication - No active profile set, falling back to 1 default profile: "default"
+15.04.2024 09:47:14.264 [main] INFO  o.s.b.w.e.t.TomcatWebServer - Tomcat initialized with port 8080 (http)
+15.04.2024 09:47:14.270 [main] INFO  o.a.c.h.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+15.04.2024 09:47:14.271 [main] INFO  o.a.c.c.StandardService - Starting service [Tomcat]
+15.04.2024 09:47:14.272 [main] INFO  o.a.c.c.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.19]
+15.04.2024 09:47:14.316 [main] INFO  o.a.c.c.C.[.[.[/] - Initializing Spring embedded WebApplicationContext
+15.04.2024 09:47:14.316 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 625 ms
+15.04.2024 09:47:14.450 [main] INFO  o.s.b.a.w.s.WelcomePageHandlerMapping - Adding welcome page: class path resource [static/index.html]
+15.04.2024 09:47:14.640 [main] INFO  o.a.c.h.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+15.04.2024 09:47:14.644 [main] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'
+15.04.2024 09:47:14.653 [main] INFO  o.s.b.a.l.ConditionEvaluationReportLogger - 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+15.04.2024 09:47:14.663 [main] ERROR o.s.b.d.LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8080 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8080 or configure this application to listen on another port.
+
+15.04.2024 09:47:23.995 [main] INFO  r.f.i.p.PpkConverterGeojsonApplication - Starting PpkConverterGeojsonApplication using Java 17.0.9 with PID 572 (C:\Users\Denis\IdeaProjects\ppk-converter-geojson\target\classes started by Denis in C:\Users\Denis\IdeaProjects\ppk-converter-geojson)
+15.04.2024 09:47:23.997 [main] INFO  r.f.i.p.PpkConverterGeojsonApplication - No active profile set, falling back to 1 default profile: "default"
+15.04.2024 09:47:24.600 [main] INFO  o.s.b.w.e.t.TomcatWebServer - Tomcat initialized with port 8080 (http)
+15.04.2024 09:47:24.606 [main] INFO  o.a.c.h.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+15.04.2024 09:47:24.607 [main] INFO  o.a.c.c.StandardService - Starting service [Tomcat]
+15.04.2024 09:47:24.607 [main] INFO  o.a.c.c.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.19]
+15.04.2024 09:47:24.640 [main] INFO  o.a.c.c.C.[.[.[/] - Initializing Spring embedded WebApplicationContext
+15.04.2024 09:47:24.641 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 618 ms
+15.04.2024 09:47:24.783 [main] INFO  o.s.b.a.w.s.WelcomePageHandlerMapping - Adding welcome page: class path resource [static/index.html]
+15.04.2024 09:47:24.977 [main] INFO  o.a.c.h.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+15.04.2024 09:47:24.980 [main] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'
+15.04.2024 09:47:24.989 [main] INFO  o.s.b.a.l.ConditionEvaluationReportLogger - 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+15.04.2024 09:47:24.999 [main] ERROR o.s.b.d.LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8080 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8080 or configure this application to listen on another port.
+
+15.04.2024 09:47:36.804 [main] INFO  r.f.i.p.PpkConverterGeojsonApplication - Starting PpkConverterGeojsonApplication using Java 17.0.9 with PID 11800 (C:\Users\Denis\IdeaProjects\ppk-converter-geojson\target\classes started by Denis in C:\Users\Denis\IdeaProjects\ppk-converter-geojson)
+15.04.2024 09:47:36.805 [main] INFO  r.f.i.p.PpkConverterGeojsonApplication - No active profile set, falling back to 1 default profile: "default"
+15.04.2024 09:47:37.382 [main] INFO  o.s.b.w.e.t.TomcatWebServer - Tomcat initialized with port 8080 (http)
+15.04.2024 09:47:37.390 [main] INFO  o.a.c.h.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+15.04.2024 09:47:37.391 [main] INFO  o.a.c.c.StandardService - Starting service [Tomcat]
+15.04.2024 09:47:37.393 [main] INFO  o.a.c.c.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.19]
+15.04.2024 09:47:37.428 [main] INFO  o.a.c.c.C.[.[.[/] - Initializing Spring embedded WebApplicationContext
+15.04.2024 09:47:37.429 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 597 ms
+15.04.2024 09:47:37.562 [main] INFO  o.s.b.a.w.s.WelcomePageHandlerMapping - Adding welcome page: class path resource [static/index.html]
+15.04.2024 09:47:37.764 [main] INFO  o.a.c.h.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+15.04.2024 09:47:37.767 [main] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'
+15.04.2024 09:47:37.778 [main] INFO  o.s.b.a.l.ConditionEvaluationReportLogger - 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+15.04.2024 09:47:37.788 [main] ERROR o.s.b.d.LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8080 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8080 or configure this application to listen on another port.
+
+15.04.2024 09:47:54.394 [main] INFO  r.f.i.p.PpkConverterGeojsonApplication - Starting PpkConverterGeojsonApplication using Java 17.0.9 with PID 17356 (C:\Users\Denis\IdeaProjects\ppk-converter-geojson\target\classes started by Denis in C:\Users\Denis\IdeaProjects\ppk-converter-geojson)
+15.04.2024 09:47:54.395 [main] INFO  r.f.i.p.PpkConverterGeojsonApplication - No active profile set, falling back to 1 default profile: "default"
+15.04.2024 09:47:54.983 [main] INFO  o.s.b.w.e.t.TomcatWebServer - Tomcat initialized with port 8080 (http)
+15.04.2024 09:47:54.989 [main] INFO  o.a.c.h.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+15.04.2024 09:47:54.991 [main] INFO  o.a.c.c.StandardService - Starting service [Tomcat]
+15.04.2024 09:47:54.991 [main] INFO  o.a.c.c.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.19]
+15.04.2024 09:47:55.025 [main] INFO  o.a.c.c.C.[.[.[/] - Initializing Spring embedded WebApplicationContext
+15.04.2024 09:47:55.025 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 601 ms
+15.04.2024 09:47:55.163 [main] INFO  o.s.b.a.w.s.WelcomePageHandlerMapping - Adding welcome page: class path resource [static/index.html]
+15.04.2024 09:47:55.354 [main] INFO  o.a.c.h.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+15.04.2024 09:47:55.359 [main] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'
+15.04.2024 09:47:55.368 [main] INFO  o.s.b.a.l.ConditionEvaluationReportLogger - 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+15.04.2024 09:47:55.379 [main] ERROR o.s.b.d.LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8080 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8080 or configure this application to listen on another port.
+
+15.04.2024 09:48:00.759 [main] INFO  r.f.i.p.PpkConverterGeojsonApplication - Starting PpkConverterGeojsonApplication using Java 17.0.9 with PID 21300 (C:\Users\Denis\IdeaProjects\ppk-converter-geojson\target\classes started by Denis in C:\Users\Denis\IdeaProjects\ppk-converter-geojson)
+15.04.2024 09:48:00.760 [main] INFO  r.f.i.p.PpkConverterGeojsonApplication - No active profile set, falling back to 1 default profile: "default"
+15.04.2024 09:48:01.306 [main] INFO  o.s.b.w.e.t.TomcatWebServer - Tomcat initialized with port 8080 (http)
+15.04.2024 09:48:01.312 [main] INFO  o.a.c.h.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+15.04.2024 09:48:01.313 [main] INFO  o.a.c.c.StandardService - Starting service [Tomcat]
+15.04.2024 09:48:01.313 [main] INFO  o.a.c.c.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.19]
+15.04.2024 09:48:01.343 [main] INFO  o.a.c.c.C.[.[.[/] - Initializing Spring embedded WebApplicationContext
+15.04.2024 09:48:01.343 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 557 ms
+15.04.2024 09:48:01.488 [main] INFO  o.s.b.a.w.s.WelcomePageHandlerMapping - Adding welcome page: class path resource [static/index.html]
+15.04.2024 09:48:01.712 [main] INFO  o.a.c.h.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+15.04.2024 09:48:01.716 [main] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'
+15.04.2024 09:48:01.727 [main] INFO  o.s.b.a.l.ConditionEvaluationReportLogger - 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+15.04.2024 09:48:01.738 [main] ERROR o.s.b.d.LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8080 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8080 or configure this application to listen on another port.
+
+15.04.2024 09:48:13.143 [main] INFO  r.f.i.p.PpkConverterGeojsonApplication - Starting PpkConverterGeojsonApplication using Java 17.0.9 with PID 6532 (C:\Users\Denis\IdeaProjects\ppk-converter-geojson\target\classes started by Denis in C:\Users\Denis\IdeaProjects\ppk-converter-geojson)
+15.04.2024 09:48:13.144 [main] INFO  r.f.i.p.PpkConverterGeojsonApplication - No active profile set, falling back to 1 default profile: "default"
+15.04.2024 09:48:13.728 [main] INFO  o.s.b.w.e.t.TomcatWebServer - Tomcat initialized with port 8080 (http)
+15.04.2024 09:48:13.734 [main] INFO  o.a.c.h.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+15.04.2024 09:48:13.735 [main] INFO  o.a.c.c.StandardService - Starting service [Tomcat]
+15.04.2024 09:48:13.735 [main] INFO  o.a.c.c.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.19]
+15.04.2024 09:48:13.774 [main] INFO  o.a.c.c.C.[.[.[/] - Initializing Spring embedded WebApplicationContext
+15.04.2024 09:48:13.774 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 605 ms
+15.04.2024 09:48:13.905 [main] INFO  o.s.b.a.w.s.WelcomePageHandlerMapping - Adding welcome page: class path resource [static/index.html]
+15.04.2024 09:48:14.098 [main] INFO  o.a.c.h.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+15.04.2024 09:48:14.102 [main] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'
+15.04.2024 09:48:14.112 [main] INFO  o.s.b.a.l.ConditionEvaluationReportLogger - 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+15.04.2024 09:48:14.124 [main] ERROR o.s.b.d.LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8080 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8080 or configure this application to listen on another port.
+
+15.04.2024 09:49:47.064 [main] INFO  r.f.i.p.PpkConverterGeojsonApplication - Starting PpkConverterGeojsonApplication using Java 17.0.9 with PID 18880 (C:\Users\Denis\IdeaProjects\ppk-converter-geojson\target\classes started by Denis in C:\Users\Denis\IdeaProjects\ppk-converter-geojson)
+15.04.2024 09:49:47.066 [main] INFO  r.f.i.p.PpkConverterGeojsonApplication - No active profile set, falling back to 1 default profile: "default"
+15.04.2024 09:49:48.283 [main] INFO  o.s.b.w.e.t.TomcatWebServer - Tomcat initialized with port 8080 (http)
+15.04.2024 09:49:48.299 [main] INFO  o.a.c.h.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+15.04.2024 09:49:48.303 [main] INFO  o.a.c.c.StandardService - Starting service [Tomcat]
+15.04.2024 09:49:48.303 [main] INFO  o.a.c.c.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.19]
+15.04.2024 09:49:48.389 [main] INFO  o.a.c.c.C.[.[.[/] - Initializing Spring embedded WebApplicationContext
+15.04.2024 09:49:48.390 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1274 ms
+15.04.2024 09:49:48.686 [main] INFO  o.s.b.a.w.s.WelcomePageHandlerMapping - Adding welcome page: class path resource [static/index.html]
+15.04.2024 09:49:49.176 [main] INFO  o.a.c.h.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+15.04.2024 09:49:49.202 [main] INFO  o.s.b.w.e.t.TomcatWebServer - Tomcat started on port 8080 (http) with context path ''
+15.04.2024 09:49:49.215 [main] INFO  r.f.i.p.PpkConverterGeojsonApplication - Started PpkConverterGeojsonApplication in 2.565 seconds (process running for 3.39)
+15.04.2024 09:50:19.466 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[.[.[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+15.04.2024 09:50:19.466 [http-nio-8080-exec-1] INFO  o.s.w.s.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+15.04.2024 09:50:19.467 [http-nio-8080-exec-1] INFO  o.s.w.s.DispatcherServlet - Completed initialization in 0 ms
+15.04.2024 09:50:19.602 [http-nio-8080-exec-2] WARN  r.f.i.p.c.CommonExceptionHandler - No static resource favicon.ico.
+15.04.2024 09:50:36.951 [http-nio-8080-exec-5] INFO  r.f.i.p.s.PpkConverterServiceImpl - start converting convertToGeojson
+15.04.2024 09:50:37.048 [http-nio-8080-exec-5] INFO  r.f.i.p.s.PpkConverterServiceImpl - end converting convertToGeojson
+15.04.2024 09:58:08.926 [main] INFO  r.f.i.p.PpkConverterGeojsonApplication - Starting PpkConverterGeojsonApplication using Java 17.0.9 with PID 15164 (C:\Users\Denis\IdeaProjects\ppk-converter-geojson\target\classes started by Denis in C:\Users\Denis\IdeaProjects\ppk-converter-geojson)
+15.04.2024 09:58:08.928 [main] INFO  r.f.i.p.PpkConverterGeojsonApplication - No active profile set, falling back to 1 default profile: "default"
+15.04.2024 09:58:09.481 [main] INFO  o.s.b.w.e.t.TomcatWebServer - Tomcat initialized with port 8080 (http)
+15.04.2024 09:58:09.487 [main] INFO  o.a.c.h.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+15.04.2024 09:58:09.488 [main] INFO  o.a.c.c.StandardService - Starting service [Tomcat]
+15.04.2024 09:58:09.488 [main] INFO  o.a.c.c.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.19]
+15.04.2024 09:58:09.527 [main] INFO  o.a.c.c.C.[.[.[/] - Initializing Spring embedded WebApplicationContext
+15.04.2024 09:58:09.527 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 572 ms
+15.04.2024 09:58:09.675 [main] INFO  o.s.b.a.w.s.WelcomePageHandlerMapping - Adding welcome page: class path resource [static/index.html]
+15.04.2024 09:58:09.869 [main] INFO  o.a.c.h.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+15.04.2024 09:58:09.878 [main] INFO  o.s.b.w.e.t.TomcatWebServer - Tomcat started on port 8080 (http) with context path ''
+15.04.2024 09:58:09.884 [main] INFO  r.f.i.p.PpkConverterGeojsonApplication - Started PpkConverterGeojsonApplication in 1.19 seconds (process running for 1.611)
+15.04.2024 09:58:36.456 [main] INFO  r.f.i.p.PpkConverterGeojsonApplication - Starting PpkConverterGeojsonApplication using Java 17.0.9 with PID 13940 (C:\Users\Denis\IdeaProjects\ppk-converter-geojson\target\classes started by Denis in C:\Users\Denis\IdeaProjects\ppk-converter-geojson)
+15.04.2024 09:58:36.457 [main] INFO  r.f.i.p.PpkConverterGeojsonApplication - No active profile set, falling back to 1 default profile: "default"
+15.04.2024 09:58:37.026 [main] INFO  o.s.b.w.e.t.TomcatWebServer - Tomcat initialized with port 8080 (http)
+15.04.2024 09:58:37.031 [main] INFO  o.a.c.h.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+15.04.2024 09:58:37.033 [main] INFO  o.a.c.c.StandardService - Starting service [Tomcat]
+15.04.2024 09:58:37.033 [main] INFO  o.a.c.c.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.19]
+15.04.2024 09:58:37.062 [main] INFO  o.a.c.c.C.[.[.[/] - Initializing Spring embedded WebApplicationContext
+15.04.2024 09:58:37.062 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 581 ms
+15.04.2024 09:58:37.198 [main] INFO  o.s.b.a.w.s.WelcomePageHandlerMapping - Adding welcome page: class path resource [static/index.html]
+15.04.2024 09:58:37.383 [main] INFO  o.a.c.h.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+15.04.2024 09:58:37.395 [main] INFO  o.s.b.w.e.t.TomcatWebServer - Tomcat started on port 8080 (http) with context path ''
+15.04.2024 09:58:37.402 [main] INFO  r.f.i.p.PpkConverterGeojsonApplication - Started PpkConverterGeojsonApplication in 1.18 seconds (process running for 1.612)
+15.04.2024 09:58:44.258 [main] INFO  r.f.i.p.PpkConverterGeojsonApplication - Starting PpkConverterGeojsonApplication using Java 17.0.9 with PID 18292 (C:\Users\Denis\IdeaProjects\ppk-converter-geojson\target\classes started by Denis in C:\Users\Denis\IdeaProjects\ppk-converter-geojson)
+15.04.2024 09:58:44.260 [main] INFO  r.f.i.p.PpkConverterGeojsonApplication - No active profile set, falling back to 1 default profile: "default"
+15.04.2024 09:58:44.850 [main] INFO  o.s.b.w.e.t.TomcatWebServer - Tomcat initialized with port 8080 (http)
+15.04.2024 09:58:44.855 [main] INFO  o.a.c.h.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+15.04.2024 09:58:44.856 [main] INFO  o.a.c.c.StandardService - Starting service [Tomcat]
+15.04.2024 09:58:44.856 [main] INFO  o.a.c.c.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.19]
+15.04.2024 09:58:44.886 [main] INFO  o.a.c.c.C.[.[.[/] - Initializing Spring embedded WebApplicationContext
+15.04.2024 09:58:44.886 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 599 ms
+15.04.2024 09:58:45.010 [main] INFO  o.s.b.a.w.s.WelcomePageHandlerMapping - Adding welcome page: class path resource [static/index.html]
+15.04.2024 09:58:45.205 [main] INFO  o.a.c.h.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+15.04.2024 09:58:45.223 [main] INFO  o.s.b.w.e.t.TomcatWebServer - Tomcat started on port 8080 (http) with context path ''
+15.04.2024 09:58:45.231 [main] INFO  r.f.i.p.PpkConverterGeojsonApplication - Started PpkConverterGeojsonApplication in 1.194 seconds (process running for 1.608)
+15.04.2024 09:58:57.136 [main] INFO  r.f.i.p.PpkConverterGeojsonApplication - Starting PpkConverterGeojsonApplication using Java 17.0.9 with PID 14484 (C:\Users\Denis\IdeaProjects\ppk-converter-geojson\target\classes started by Denis in C:\Users\Denis\IdeaProjects\ppk-converter-geojson)
+15.04.2024 09:58:57.137 [main] INFO  r.f.i.p.PpkConverterGeojsonApplication - No active profile set, falling back to 1 default profile: "default"
+15.04.2024 09:58:57.713 [main] INFO  o.s.b.w.e.t.TomcatWebServer - Tomcat initialized with port 8080 (http)
+15.04.2024 09:58:57.723 [main] INFO  o.a.c.h.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+15.04.2024 09:58:57.725 [main] INFO  o.a.c.c.StandardService - Starting service [Tomcat]
+15.04.2024 09:58:57.726 [main] INFO  o.a.c.c.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.19]
+15.04.2024 09:58:57.767 [main] INFO  o.a.c.c.C.[.[.[/] - Initializing Spring embedded WebApplicationContext
+15.04.2024 09:58:57.768 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 606 ms
+15.04.2024 09:58:57.978 [main] INFO  o.s.b.a.w.s.WelcomePageHandlerMapping - Adding welcome page: class path resource [static/index.html]
+15.04.2024 09:58:58.157 [main] INFO  o.a.c.h.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+15.04.2024 09:58:58.168 [main] INFO  o.s.b.w.e.t.TomcatWebServer - Tomcat started on port 8080 (http) with context path ''
+15.04.2024 09:58:58.175 [main] INFO  r.f.i.p.PpkConverterGeojsonApplication - Started PpkConverterGeojsonApplication in 1.252 seconds (process running for 1.664)
+15.04.2024 09:59:07.601 [main] INFO  r.f.i.p.PpkConverterGeojsonApplication - Starting PpkConverterGeojsonApplication using Java 17.0.9 with PID 7832 (C:\Users\Denis\IdeaProjects\ppk-converter-geojson\target\classes started by Denis in C:\Users\Denis\IdeaProjects\ppk-converter-geojson)
+15.04.2024 09:59:07.602 [main] INFO  r.f.i.p.PpkConverterGeojsonApplication - No active profile set, falling back to 1 default profile: "default"
+15.04.2024 09:59:08.175 [main] INFO  o.s.b.w.e.t.TomcatWebServer - Tomcat initialized with port 8080 (http)
+15.04.2024 09:59:08.180 [main] INFO  o.a.c.h.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+15.04.2024 09:59:08.181 [main] INFO  o.a.c.c.StandardService - Starting service [Tomcat]
+15.04.2024 09:59:08.181 [main] INFO  o.a.c.c.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.19]
+15.04.2024 09:59:08.213 [main] INFO  o.a.c.c.C.[.[.[/] - Initializing Spring embedded WebApplicationContext
+15.04.2024 09:59:08.213 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 585 ms
+15.04.2024 09:59:08.354 [main] INFO  o.s.b.a.w.s.WelcomePageHandlerMapping - Adding welcome page: class path resource [static/index.html]
+15.04.2024 09:59:08.551 [main] INFO  o.a.c.h.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+15.04.2024 09:59:08.562 [main] INFO  o.s.b.w.e.t.TomcatWebServer - Tomcat started on port 8080 (http) with context path ''
+15.04.2024 09:59:08.569 [main] INFO  r.f.i.p.PpkConverterGeojsonApplication - Started PpkConverterGeojsonApplication in 1.192 seconds (process running for 1.612)
+15.04.2024 09:59:22.806 [main] INFO  r.f.i.p.PpkConverterGeojsonApplication - Starting PpkConverterGeojsonApplication using Java 17.0.9 with PID 3608 (C:\Users\Denis\IdeaProjects\ppk-converter-geojson\target\classes started by Denis in C:\Users\Denis\IdeaProjects\ppk-converter-geojson)
+15.04.2024 09:59:22.808 [main] INFO  r.f.i.p.PpkConverterGeojsonApplication - No active profile set, falling back to 1 default profile: "default"
+15.04.2024 09:59:23.345 [main] INFO  o.s.b.w.e.t.TomcatWebServer - Tomcat initialized with port 8080 (http)
+15.04.2024 09:59:23.353 [main] INFO  o.a.c.h.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+15.04.2024 09:59:23.355 [main] INFO  o.a.c.c.StandardService - Starting service [Tomcat]
+15.04.2024 09:59:23.355 [main] INFO  o.a.c.c.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.19]
+15.04.2024 09:59:23.391 [main] INFO  o.a.c.c.C.[.[.[/] - Initializing Spring embedded WebApplicationContext
+15.04.2024 09:59:23.391 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 558 ms
+15.04.2024 09:59:23.528 [main] INFO  o.s.b.a.w.s.WelcomePageHandlerMapping - Adding welcome page: class path resource [static/index.html]
+15.04.2024 09:59:23.712 [main] INFO  o.a.c.h.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+15.04.2024 09:59:23.722 [main] INFO  o.s.b.w.e.t.TomcatWebServer - Tomcat started on port 8080 (http) with context path ''
+15.04.2024 09:59:23.728 [main] INFO  r.f.i.p.PpkConverterGeojsonApplication - Started PpkConverterGeojsonApplication in 1.139 seconds (process running for 1.556)
+15.04.2024 09:59:28.380 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[.[.[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+15.04.2024 09:59:28.381 [http-nio-8080-exec-1] INFO  o.s.w.s.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+15.04.2024 09:59:28.382 [http-nio-8080-exec-1] INFO  o.s.w.s.DispatcherServlet - Completed initialization in 1 ms
+15.04.2024 09:59:28.398 [http-nio-8080-exec-1] WARN  r.f.i.p.c.CommonExceptionHandler - No static resource favicon.ico.
+15.04.2024 09:59:32.903 [http-nio-8080-exec-3] WARN  r.f.i.p.c.CommonExceptionHandler - No static resource favicon.ico.
+15.04.2024 09:59:41.751 [http-nio-8080-exec-4] INFO  r.f.i.p.s.PpkConverterServiceImpl - start converting convertToGeojson
+15.04.2024 09:59:41.816 [http-nio-8080-exec-4] INFO  r.f.i.p.s.PpkConverterServiceImpl - end converting convertToGeojson
+15.04.2024 10:42:01.725 [main] INFO  r.f.i.p.PpkConverterGeojsonApplication - Starting PpkConverterGeojsonApplication using Java 17.0.9 with PID 18620 (C:\Users\Denis\IdeaProjects\ppk-converter-geojson\target\classes started by Denis in C:\Users\Denis\IdeaProjects\ppk-converter-geojson)
+15.04.2024 10:42:01.726 [main] INFO  r.f.i.p.PpkConverterGeojsonApplication - No active profile set, falling back to 1 default profile: "default"
+15.04.2024 10:42:02.647 [main] INFO  o.s.b.w.e.t.TomcatWebServer - Tomcat initialized with port 8080 (http)
+15.04.2024 10:42:02.659 [main] INFO  o.a.c.h.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+15.04.2024 10:42:02.660 [main] INFO  o.a.c.c.StandardService - Starting service [Tomcat]
+15.04.2024 10:42:02.661 [main] INFO  o.a.c.c.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.19]
+15.04.2024 10:42:02.719 [main] INFO  o.a.c.c.C.[.[.[/] - Initializing Spring embedded WebApplicationContext
+15.04.2024 10:42:02.719 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 953 ms
+15.04.2024 10:42:02.919 [main] INFO  o.s.b.a.w.s.WelcomePageHandlerMapping - Adding welcome page: class path resource [static/index.html]
+15.04.2024 10:42:03.156 [main] INFO  o.a.c.h.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+15.04.2024 10:42:03.170 [main] INFO  o.s.b.w.e.t.TomcatWebServer - Tomcat started on port 8080 (http) with context path ''
+15.04.2024 10:42:03.178 [main] INFO  r.f.i.p.PpkConverterGeojsonApplication - Started PpkConverterGeojsonApplication in 1.812 seconds (process running for 2.488)
+15.04.2024 10:42:08.960 [main] INFO  r.f.i.p.PpkConverterGeojsonApplication - Starting PpkConverterGeojsonApplication using Java 17.0.9 with PID 23136 (C:\Users\Denis\IdeaProjects\ppk-converter-geojson\target\classes started by Denis in C:\Users\Denis\IdeaProjects\ppk-converter-geojson)
+15.04.2024 10:42:08.962 [main] INFO  r.f.i.p.PpkConverterGeojsonApplication - No active profile set, falling back to 1 default profile: "default"
+15.04.2024 10:42:09.618 [main] INFO  o.s.b.w.e.t.TomcatWebServer - Tomcat initialized with port 8080 (http)
+15.04.2024 10:42:09.625 [main] INFO  o.a.c.h.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+15.04.2024 10:42:09.626 [main] INFO  o.a.c.c.StandardService - Starting service [Tomcat]
+15.04.2024 10:42:09.626 [main] INFO  o.a.c.c.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.19]
+15.04.2024 10:42:09.664 [main] INFO  o.a.c.c.C.[.[.[/] - Initializing Spring embedded WebApplicationContext
+15.04.2024 10:42:09.664 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 669 ms
+15.04.2024 10:42:09.808 [main] INFO  o.s.b.a.w.s.WelcomePageHandlerMapping - Adding welcome page: class path resource [static/index.html]
+15.04.2024 10:42:10.014 [main] INFO  o.a.c.h.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+15.04.2024 10:42:10.026 [main] INFO  o.s.b.w.e.t.TomcatWebServer - Tomcat started on port 8080 (http) with context path ''
+15.04.2024 10:42:10.033 [main] INFO  r.f.i.p.PpkConverterGeojsonApplication - Started PpkConverterGeojsonApplication in 1.346 seconds (process running for 1.82)
+15.04.2024 10:52:31.122 [main] INFO  r.f.i.p.PpkConverterGeojsonApplication - Starting PpkConverterGeojsonApplication using Java 17.0.9 with PID 14564 (C:\Users\Denis\IdeaProjects\ppk-converter-geojson\target\classes started by Denis in C:\Users\Denis\IdeaProjects\ppk-converter-geojson)
+15.04.2024 10:52:31.123 [main] INFO  r.f.i.p.PpkConverterGeojsonApplication - No active profile set, falling back to 1 default profile: "default"
+15.04.2024 10:52:31.670 [main] INFO  o.s.b.w.e.t.TomcatWebServer - Tomcat initialized with port 8080 (http)
+15.04.2024 10:52:31.677 [main] INFO  o.a.c.h.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+15.04.2024 10:52:31.679 [main] INFO  o.a.c.c.StandardService - Starting service [Tomcat]
+15.04.2024 10:52:31.679 [main] INFO  o.a.c.c.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.19]
+15.04.2024 10:52:31.711 [main] INFO  o.a.c.c.C.[.[.[/] - Initializing Spring embedded WebApplicationContext
+15.04.2024 10:52:31.711 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 562 ms
+15.04.2024 10:52:31.840 [main] INFO  o.s.b.a.w.s.WelcomePageHandlerMapping - Adding welcome page: class path resource [static/index.html]
+15.04.2024 10:52:32.019 [main] INFO  o.a.c.h.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+15.04.2024 10:52:32.029 [main] INFO  o.s.b.w.e.t.TomcatWebServer - Tomcat started on port 8080 (http) with context path ''
+15.04.2024 10:52:32.036 [main] INFO  r.f.i.p.PpkConverterGeojsonApplication - Started PpkConverterGeojsonApplication in 1.149 seconds (process running for 1.567)
+15.04.2024 10:52:38.266 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[.[.[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+15.04.2024 10:52:38.266 [http-nio-8080-exec-1] INFO  o.s.w.s.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+15.04.2024 10:52:38.267 [http-nio-8080-exec-1] INFO  o.s.w.s.DispatcherServlet - Completed initialization in 1 ms
+15.04.2024 10:52:38.288 [http-nio-8080-exec-1] WARN  r.f.i.p.c.CommonExceptionHandler - No static resource favicon.ico.
+15.04.2024 10:52:43.023 [http-nio-8080-exec-8] INFO  r.f.i.p.s.PpkConverterServiceImpl - start converting convertToGeojson
+15.04.2024 10:52:43.086 [http-nio-8080-exec-8] INFO  r.f.i.p.s.PpkConverterServiceImpl - end converting convertToGeojson
+15.04.2024 11:12:32.528 [main] INFO  r.f.i.p.PpkConverterGeojsonApplication - Starting PpkConverterGeojsonApplication using Java 17.0.9 with PID 22556 (C:\Users\Denis\IdeaProjects\ppk-converter-geojson\target\classes started by Denis in C:\Users\Denis\IdeaProjects\ppk-converter-geojson)
+15.04.2024 11:12:32.531 [main] INFO  r.f.i.p.PpkConverterGeojsonApplication - No active profile set, falling back to 1 default profile: "default"
+15.04.2024 11:12:33.780 [main] INFO  o.s.b.w.e.t.TomcatWebServer - Tomcat initialized with port 8080 (http)
+15.04.2024 11:12:33.793 [main] INFO  o.a.c.h.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+15.04.2024 11:12:33.796 [main] INFO  o.a.c.c.StandardService - Starting service [Tomcat]
+15.04.2024 11:12:33.797 [main] INFO  o.a.c.c.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.19]
+15.04.2024 11:12:33.884 [main] INFO  o.a.c.c.C.[.[.[/] - Initializing Spring embedded WebApplicationContext
+15.04.2024 11:12:33.884 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1296 ms
+15.04.2024 11:12:34.164 [main] INFO  o.s.b.a.w.s.WelcomePageHandlerMapping - Adding welcome page: class path resource [static/index.html]
+15.04.2024 11:12:34.539 [main] INFO  o.a.c.h.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+15.04.2024 11:12:34.555 [main] INFO  o.s.b.w.e.t.TomcatWebServer - Tomcat started on port 8080 (http) with context path ''
+15.04.2024 11:12:34.564 [main] INFO  r.f.i.p.PpkConverterGeojsonApplication - Started PpkConverterGeojsonApplication in 2.481 seconds (process running for 3.327)
+15.04.2024 11:12:41.308 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[.[.[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+15.04.2024 11:12:41.309 [http-nio-8080-exec-1] INFO  o.s.w.s.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+15.04.2024 11:12:41.311 [http-nio-8080-exec-1] INFO  o.s.w.s.DispatcherServlet - Completed initialization in 2 ms
+15.04.2024 11:12:41.343 [http-nio-8080-exec-1] WARN  r.f.i.p.c.CommonExceptionHandler - No static resource favicon.ico.
+15.04.2024 11:12:48.460 [http-nio-8080-exec-3] INFO  r.f.i.p.s.PpkConverterServiceImpl - start converting convertToGeojson
+15.04.2024 11:12:48.854 [http-nio-8080-exec-3] INFO  r.f.i.p.s.PpkConverterServiceImpl - end converting convertToGeojson
+15.04.2024 11:13:25.844 [http-nio-8080-exec-2] WARN  r.f.i.p.c.CommonExceptionHandler - No static resource favicon.ico.
+15.04.2024 11:13:29.329 [http-nio-8080-exec-4] INFO  r.f.i.p.s.PpkConverterServiceImpl - start converting convertToGeojson
+15.04.2024 11:13:29.331 [http-nio-8080-exec-4] INFO  r.f.i.p.s.PpkConverterServiceImpl - end converting convertToGeojson

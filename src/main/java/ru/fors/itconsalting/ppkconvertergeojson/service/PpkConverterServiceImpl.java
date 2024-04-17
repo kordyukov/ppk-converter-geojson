@@ -7,26 +7,22 @@ import lombok.RequiredArgsConstructor;
 import org.apache.commons.io.IOUtils;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
-import org.springframework.core.io.ClassPathResource;
 import org.springframework.stereotype.Service;
 import ru.fors.itconsalting.ppkconvertergeojson.dto.request.PpkRequestDTO;
 import ru.fors.itconsalting.ppkconvertergeojson.dto.request.SpelementUnitRequestDTO;
 import ru.fors.itconsalting.ppkconvertergeojson.dto.response.*;
 
-import java.io.*;
-import java.net.URL;
-import java.nio.charset.StandardCharsets;
+import java.io.File;
+import java.io.IOException;
 import java.nio.file.Files;
-import java.nio.file.Path;
 import java.util.Collections;
 import java.util.List;
-import java.util.Objects;
-import java.util.UUID;
 
-import static com.github.jknack.handlebars.internal.Files.read;
 import static java.lang.Double.parseDouble;
 import static ru.fors.itconsalting.ppkconvertergeojson.constant.PpkConstantEnum.CONVERT_FILE_NAME;
 import static ru.fors.itconsalting.ppkconvertergeojson.constant.PpkConstantEnum.POLYGON_CONST;
+import static ru.fors.itconsalting.ppkconvertergeojson.service.converter.PpkConverter.convertX;
+import static ru.fors.itconsalting.ppkconvertergeojson.service.converter.PpkConverter.convertY;
 
 @Service
 @RequiredArgsConstructor
@@ -53,8 +49,8 @@ public class PpkConverterServiceImpl implements PpkConverterService {
         List<List<Double>> coordinatesResponse = spelementUnit
                 .stream()
                 .map(SpelementUnitRequestDTO::getOrdinate)
-                .map(ordinateRequest -> List.of(parseDouble(ordinateRequest.getX()),
-                        parseDouble(ordinateRequest.getY())))
+                .map(ordinateRequest -> List.of(convertX(parseDouble(ordinateRequest.getX())),
+                        convertY(parseDouble(ordinateRequest.getY()))))
                 .toList();
 
         geometryResponseDTO.setCoordinates(Collections.singletonList(coordinatesResponse));
